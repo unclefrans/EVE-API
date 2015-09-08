@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_446b3dd0be083fb7fb2be86da025aba8" kind="dir">
+    <compoundname>parser/testcase</compoundname>
+    <innerdir refid="dir_42ad5b293292aa9e5b49317eef64edf7">parser/testcase/reader</innerdir>
+    <innerfile refid="all__test_8php">all_test.php</innerfile>
+    <innerfile refid="callback__testcase_8php">callback_testcase.php</innerfile>
+    <innerfile refid="dom__testcase_8php">dom_testcase.php</innerfile>
+    <innerfile refid="element__testcase_8php">element_testcase.php</innerfile>
+    <innerfile refid="invalid__testcase_8php">invalid_testcase.php</innerfile>
+    <innerfile refid="testcase_2jquery-1_82_83_8pack_8js">jquery-1.2.3.pack.js</innerfile>
+    <innerfile refid="mass__test_8php">mass_test.php</innerfile>
+    <innerfile refid="memory__test_8php">memory_test.php</innerfile>
+    <innerfile refid="misc__testcase_8php">misc_testcase.php</innerfile>
+    <innerfile refid="performance__test_8php">performance_test.php</innerfile>
+    <innerfile refid="selector__testcase_8php">selector_testcase.php</innerfile>
+    <innerfile refid="slick__test_8php">slick_test.php</innerfile>
+    <innerfile refid="std__testcase_8php">std_testcase.php</innerfile>
+    <innerfile refid="strip__testcase_8php">strip_testcase.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Wamp/www/EVE API/parser/testcase/"/>
+  </compounddef>
+</doxygen>

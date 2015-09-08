@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="slick__test_8php" kind="file">
+    <compoundname>slick_test.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="slick__test_8php_1a50a00e7de77365e00b117e73aa82fb9b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$start</definition>
+        <argsstring></argsstring>
+        <name>$start</name>
+        <initializer>= microtime()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/slick_test.php" line="6" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/slick_test.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$html</definition>
+        <argsstring></argsstring>
+        <name>$html</name>
+        <initializer>= <ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(&apos;slickspeed.htm&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/slick_test.php" line="8" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/slick_test.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Rev:<sp/>133<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">error_reporting(E_ALL);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">include_once(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="slick__test_8php_1a50a00e7de77365e00b117e73aa82fb9b" kindref="member">$start</ref><sp/>=<sp/>microtime();</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">list($bu,<sp/>$bs)<sp/>=<sp/>explode(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,<sp/><ref refid="slick__test_8php_1a50a00e7de77365e00b117e73aa82fb9b" kindref="member">$start</ref>);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(</highlight><highlight class="stringliteral">&apos;slickspeed.htm&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">list($eu,<sp/><ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>)<sp/>=<sp/>explode(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,<sp/>microtime());</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">echo<sp/>sprintf(</highlight><highlight class="stringliteral">&apos;parse<sp/>(%.1f)&apos;</highlight><highlight class="normal">,<sp/>((</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)$eu+(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)<ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>-(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)$bu-(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)$bs)*1000).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;#title&apos;</highlight><highlight class="normal">))==1);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div&apos;</highlight><highlight class="normal">))==51);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div[class]&apos;</highlight><highlight class="normal">))==51);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div.example&apos;</highlight><highlight class="normal">))==43);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div[class=example]&apos;</highlight><highlight class="normal">))==43);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;.note&apos;</highlight><highlight class="normal">))==14);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div[class^=exa]&apos;</highlight><highlight class="normal">))==43);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div[class$=mple]&apos;</highlight><highlight class="normal">))==43);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div[class*=e]&apos;</highlight><highlight class="normal">))==50);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div[class!=made_up]&apos;</highlight><highlight class="normal">))==51);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">assert(count(<ref refid="slick__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="charliteral">&apos;p&apos;</highlight><highlight class="normal">))==324);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;All<sp/>pass!&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/testcase/slick_test.php"/>
+  </compounddef>
+</doxygen>

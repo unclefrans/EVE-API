@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="example__scraping__imdb_8php" kind="file">
+    <compoundname>example_scraping_imdb.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="example__scraping__imdb_8php_1affd9e3eb0aad0a7ca42912cd925f148c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ret</definition>
+        <argsstring></argsstring>
+        <name>$ret</name>
+        <initializer>= <ref refid="example__scraping__imdb_8php_1a1127fdce9d0b718d1243fddf7231e248" kindref="member">scraping_IMDB</ref>(&apos;http://imdb.com/title/tt0335266/&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_imdb.php" line="47" column="1" bodyfile="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_imdb.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__scraping__imdb_8php_1a1127fdce9d0b718d1243fddf7231e248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>scraping_IMDB</definition>
+        <argsstring>($url)</argsstring>
+        <name>scraping_IMDB</name>
+        <param>
+          <declname>$url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_imdb.php" line="4" column="1" bodyfile="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_imdb.php" bodystart="4" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">include_once(</highlight><highlight class="stringliteral">&apos;../../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="example__scraping__imdb_8php_1a1127fdce9d0b718d1243fddf7231e248" kindref="member">scraping_IMDB</ref>(<ref refid="extended_char_info_8php_1acf215f34a917d014776ce684a9ee8909" kindref="member">$url</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>HTML<sp/>DOM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(<ref refid="extended_char_info_8php_1acf215f34a917d014776ce684a9ee8909" kindref="member">$url</ref>);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>title</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__scraping__imdb_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref>[</highlight><highlight class="stringliteral">&apos;Title&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;innertext;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>rating</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="example__scraping__imdb_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref>[</highlight><highlight class="stringliteral">&apos;Rating&apos;</highlight><highlight class="normal">]<sp/>=<sp/><ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div[class=&quot;general<sp/>rating&quot;]<sp/>b&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;innertext;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>overview</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div[class=&quot;info&quot;]&apos;</highlight><highlight class="normal">)<sp/>as<sp/>$div)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>skip<sp/>user<sp/>comments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">($div-&gt;find(</highlight><highlight class="stringliteral">&apos;h5&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;innertext==</highlight><highlight class="stringliteral">&apos;User<sp/>Comments:&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="example__scraping__imdb_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$key<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$val<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">($div-&gt;find(</highlight><highlight class="charliteral">&apos;*&apos;</highlight><highlight class="normal">)<sp/>as<sp/>$node)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($node-&gt;tag==</highlight><highlight class="stringliteral">&apos;h5&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$key<sp/>=<sp/>$node-&gt;plaintext;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($node-&gt;tag==</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>$node-&gt;plaintext!=</highlight><highlight class="stringliteral">&apos;more&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$val<sp/>.=<sp/>trim(str_replace(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>$node-&gt;plaintext));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($node-&gt;tag==</highlight><highlight class="stringliteral">&apos;text&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$val<sp/>.=<sp/>trim(str_replace(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>$node-&gt;plaintext));</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="example__scraping__imdb_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref>[$key]<sp/>=<sp/>$val;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>clean<sp/>up<sp/>memory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;clear();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>unset(<ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="example__scraping__imdb_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>test<sp/>it!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="example__scraping__imdb_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref><sp/>=<sp/><ref refid="example__scraping__imdb_8php_1a1127fdce9d0b718d1243fddf7231e248" kindref="member">scraping_IMDB</ref>(</highlight><highlight class="stringliteral">&apos;http://imdb.com/title/tt0335266/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="example__scraping__imdb_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref><sp/>as<sp/>$k=&gt;$v)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;strong&gt;&apos;</highlight><highlight class="normal">.$k.</highlight><highlight class="stringliteral">&apos;<sp/>&lt;/strong&gt;&apos;</highlight><highlight class="normal">.$v.</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_imdb.php"/>
+  </compounddef>
+</doxygen>

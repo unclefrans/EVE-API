@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="example__extract__html_8php" kind="file">
+    <compoundname>example_extract_html.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">include_once(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">echo<sp/><ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(</highlight><highlight class="stringliteral">&apos;http://www.google.com/&apos;</highlight><highlight class="normal">)-&gt;plaintext;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/example/example_extract_html.php"/>
+  </compounddef>
+</doxygen>

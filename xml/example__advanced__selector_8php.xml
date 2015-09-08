@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="example__advanced__selector_8php" kind="file">
+    <compoundname>example_advanced_selector.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>foreach ($html-&gt;find(&apos;ul&apos;) as $ul) $str</definition>
+        <argsstring></argsstring>
+        <name>$str</name>
+        <initializer>= &lt;&lt;&lt;HTML
+&lt;div&gt;
+    &lt;div&gt;
+        &lt;div class=&quot;foo bar&quot;&gt;ok&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+HTML</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/example/example_advanced_selector.php" line="7" column="1" bodyfile="C:/Wamp/www/EVE API/parser/example/example_advanced_selector.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="example__advanced__selector_8php_1a6f96e7fc92441776c9d1cd3386663b40" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$html</definition>
+        <argsstring></argsstring>
+        <name>$html</name>
+        <initializer>= <ref refid="simple__html__dom_8php_1a2a9c7626f0cb0a56eb81709124a08922" kindref="member">str_get_html</ref>($str)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/example/example_advanced_selector.php" line="15" column="1" bodyfile="C:/Wamp/www/EVE API/parser/example/example_advanced_selector.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>example<sp/>of<sp/>how<sp/>to<sp/>use<sp/>advanced<sp/>selector<sp/>features</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">include(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>descendant<sp/>selector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">&lt;div&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;foo<sp/>bar&quot;</highlight><highlight class="normal">&gt;ok&lt;/div&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="example__advanced__selector_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1a2a9c7626f0cb0a56eb81709124a08922" kindref="member">str_get_html</ref>(<ref refid="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">echo<sp/><ref refid="example__advanced__selector_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div<sp/>div<sp/>div&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;innertext<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>result:<sp/>&quot;ok&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nested<sp/>selector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">&lt;ul<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;ul1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;li&gt;item:&lt;span&gt;1&lt;/span&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;li&gt;item:&lt;span&gt;2&lt;/span&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">&lt;/ul&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">&lt;ul<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;ul2&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;li&gt;item:&lt;span&gt;3&lt;/span&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;li&gt;item:&lt;span&gt;4&lt;/span&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">&lt;/ul&gt;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="example__advanced__selector_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1a2a9c7626f0cb0a56eb81709124a08922" kindref="member">str_get_html</ref>(<ref refid="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="example__advanced__selector_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;ul&apos;</highlight><highlight class="normal">)<sp/>as<sp/><ref refid="dom__testcase_8php_1a366d002f1f686d0884af91b64e877eb9" kindref="member">$ul</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="dom__testcase_8php_1a366d002f1f686d0884af91b64e877eb9" kindref="member">$ul</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;li&apos;</highlight><highlight class="normal">)<sp/>as<sp/>$li)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>$li-&gt;innertext<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>parsing<sp/>checkbox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><ref refid="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">&lt;form<sp/><ref refid="jquery_8js_1a7e76f3957f225b9a14d6fab0a55392ce" kindref="member">name</ref>=</highlight><highlight class="stringliteral">&quot;form1&quot;</highlight><highlight class="normal"><sp/>method=</highlight><highlight class="stringliteral">&quot;post&quot;</highlight><highlight class="normal"><sp/>action=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;input<sp/><ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox1&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;checkbox1&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1a4f94e2717068dd53cc425872ce111b17" kindref="member">checked</ref>&gt;item1&lt;br&gt;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox2&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;checkbox2&quot;</highlight><highlight class="normal">&gt;item2&lt;br&gt;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox3&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;checkbox3&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1a4f94e2717068dd53cc425872ce111b17" kindref="member">checked</ref>&gt;item3&lt;br&gt;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">&lt;/form&gt;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="example__advanced__selector_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1a2a9c7626f0cb0a56eb81709124a08922" kindref="member">str_get_html</ref>(<ref refid="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="example__advanced__selector_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input[type=checkbox]&apos;</highlight><highlight class="normal">)<sp/>as<sp/>$checkbox)<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($checkbox-&gt;checked)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>$checkbox-&gt;name<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;<sp/>is<sp/>checked&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>$checkbox-&gt;name<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;<sp/>is<sp/>not<sp/>checked&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/example/example_advanced_selector.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="callback__testcase_8php" kind="file">
+    <compoundname>callback_testcase.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dom</definition>
+        <argsstring></argsstring>
+        <name>$dom</name>
+        <initializer>= new <ref refid="classsimple__html__dom" kindref="compound">simple_html_dom</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" line="7" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="callback__testcase_8php_1a7542d95618011800c61773127fa625cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$str</definition>
+        <argsstring></argsstring>
+        <name>$str</name>
+        <initializer>= &lt;&lt;&lt;HTML
+&lt;img src=&quot;src0&quot;&gt;&lt;p&gt;<ref refid="strip__testcase_8php_1aa901575d6c772d2340f7e16cf7028985" kindref="member">foo</ref>&lt;/p&gt;&lt;img src=&quot;src2&quot;&gt;
+HTML</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" line="11" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="callback__testcase_8php_1affb538f1e28d832935f55a5934c7e8a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>callback_1</definition>
+        <argsstring>($e)</argsstring>
+        <name>callback_1</name>
+        <param>
+          <declname>$e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" line="15" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="callback__testcase_8php_1a99e39d21c3f06378a515e1267a8d66ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>callback_2</definition>
+        <argsstring>($e)</argsstring>
+        <name>callback_2</name>
+        <param>
+          <declname>$e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" line="26" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="callback__testcase_8php_1a88c88c63e41001e314f091ee08e81be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>callback_3</definition>
+        <argsstring>($e)</argsstring>
+        <name>callback_3</name>
+        <param>
+          <declname>$e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" line="37" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="callback__testcase_8php_1acf3f1f1f92a96d90d5fe042976db4f10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>callback_4</definition>
+        <argsstring>($e)</argsstring>
+        <name>callback_4</name>
+        <param>
+          <declname>$e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" line="46" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="callback__testcase_8php_1a505fe2d855f161ee34959f37b77169c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>callback_5</definition>
+        <argsstring>($e)</argsstring>
+        <name>callback_5</name>
+        <param>
+          <declname>$e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" line="62" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php" bodystart="62" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Rev:<sp/>179<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>setup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">error_reporting(E_ALL);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">require_once(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsimple__html__dom" kindref="compound">simple_html_dom</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>test<sp/>problem<sp/>of<sp/>last<sp/>emelemt<sp/>not<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="callback__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;src0&quot;</highlight><highlight class="normal">&gt;&lt;p&gt;<ref refid="strip__testcase_8php_1aa901575d6c772d2340f7e16cf7028985" kindref="member">foo</ref>&lt;/p&gt;&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;src2&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="callback__testcase_8php_1affb538f1e28d832935f55a5934c7e8a8" kindref="member">callback_1</ref>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;tag===</highlight><highlight class="stringliteral">&apos;img&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;outertext<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load(<ref refid="callback__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;set_callback(</highlight><highlight class="stringliteral">&apos;callback_1&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">assert(<ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>==</highlight><highlight class="stringliteral">&apos;&lt;p&gt;foo&lt;/p&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>innertext<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="callback__testcase_8php_1a99e39d21c3f06378a515e1267a8d66ea" kindref="member">callback_2</ref>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;tag===</highlight><highlight class="charliteral">&apos;p&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;innertext<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;bar&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load(<ref refid="callback__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;set_callback(</highlight><highlight class="stringliteral">&apos;callback_2&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">assert(<ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>==</highlight><highlight class="stringliteral">&apos;&lt;img<sp/>src=&quot;src0&quot;&gt;&lt;p&gt;bar&lt;/p&gt;&lt;img<sp/>src=&quot;src2&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>attributes<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="callback__testcase_8php_1a88c88c63e41001e314f091ee08e81be2" kindref="member">callback_3</ref>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;tag===</highlight><highlight class="stringliteral">&apos;img&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;src<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;foo&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load(<ref refid="callback__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;set_callback(</highlight><highlight class="stringliteral">&apos;callback_3&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">assert(<ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>==</highlight><highlight class="stringliteral">&apos;&lt;img<sp/>src=&quot;foo&quot;&gt;&lt;p&gt;foo&lt;/p&gt;&lt;img<sp/>src=&quot;foo&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="callback__testcase_8php_1acf3f1f1f92a96d90d5fe042976db4f10" kindref="member">callback_4</ref>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;tag===</highlight><highlight class="stringliteral">&apos;img&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;id<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;foo&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;set_callback(</highlight><highlight class="stringliteral">&apos;callback_4&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">assert(<ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>==</highlight><highlight class="stringliteral">&apos;&lt;img<sp/>src=&quot;foo&quot;<sp/>id=&quot;foo&quot;&gt;&lt;p&gt;foo&lt;/p&gt;&lt;img<sp/>src=&quot;foo&quot;<sp/>id=&quot;foo&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>attributes<sp/>test2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//$dom<sp/>=<sp/>str_get_dom($str);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load(<ref refid="callback__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;remove_callback();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;img&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;id<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;foo&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">assert(<ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>==</highlight><highlight class="stringliteral">&apos;&lt;img<sp/>src=&quot;src0&quot;<sp/>id=&quot;foo&quot;&gt;&lt;p&gt;foo&lt;/p&gt;&lt;img<sp/>src=&quot;src2&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="callback__testcase_8php_1a505fe2d855f161ee34959f37b77169c3" kindref="member">callback_5</ref>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;src===</highlight><highlight class="stringliteral">&apos;src0&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unset(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;id);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;set_callback(</highlight><highlight class="stringliteral">&apos;callback_5&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">assert(<ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>==<ref refid="callback__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tear<sp/>down</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;clear();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">unset(<ref refid="callback__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/testcase/callback_testcase.php"/>
+  </compounddef>
+</doxygen>

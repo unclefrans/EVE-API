@@ -1,0 +1,37 @@
+\hypertarget{namespace_place_local_include}{\section{Place\+Local\+Include Namespace Reference}
+\label{namespace_place_local_include}\index{Place\+Local\+Include@{Place\+Local\+Include}}
+}
+
+
+\subsection{Detailed Description}
+Website\+: \href{http://sourceforge.net/projects/simplehtmldom/}{\tt http\+://sourceforge.\+net/projects/simplehtmldom/} Acknowledge\+: Jose Solorzano (\href{https://sourceforge.net/projects/php-html/}{\tt https\+://sourceforge.\+net/projects/php-\/html/}) Contributions by\+: Yousuke Kumakura (Attribute filters) Vadim Voituk (Negative indexes supports of \char`\"{}find\char`\"{} method) Antcs (Constructor with automatically load contents either text or file/url)
+
+all affected sections have comments starting with \char`\"{}\+Paper\+G\char`\"{}
+
+Paperg -\/ Added case insensitive testing of the value of the selector. Paperg -\/ Added tag\+\_\+start for the starting index of tags -\/ N\+O\+T\+E\+: This works but not accurately. This tag\+\_\+start gets counted A\+F\+T\+E\+R ~\newline
+ have been crushed out, and after the remove\+\_\+noice calls so it will not reflect the R\+E\+A\+L position of the tag in the source, it will almost always be smaller by some amount. We use this to determine how far into the file the tag in question is. This \char`\"{}percentage will never be accurate as the \$dom-\/$>$size is the \char`\"{}real" number of bytes the dom was created from. but for most purposes, it's a really good estimation. Paperg -\/ Added the force\+Tags\+Closed to the dom constructor. Forcing tags closed is great for malformed html, but it C\+A\+N lead to parsing errors. Allow the user to tell us how much they trust the html. Paperg add the text and plaintext to the selectors for the find syntax. plaintext implies text in the innertext of a node. text implies that the tag is a text node. This allows for us to find tags based on the text they contain. Create find\+\_\+ancestor\+\_\+tag to see if a tag is -\/ at any level -\/ inside of another specific tag. Paperg\+: added parse\+\_\+charset so that we know about the character set of the source document. N\+O\+T\+E\+: If the user's system has a routine called get\+\_\+last\+\_\+retrieve\+\_\+url\+\_\+contents\+\_\+content\+\_\+type availalbe, we will assume it's returning the content-\/type header from the last transfer or curl\+\_\+exec, and we will parse that and use it in preference to any other method of charset detection.
+
+Found infinite loop in the case of broken html in restore\+\_\+noise. Rewrote to protect from that. Paper\+G (John Schlick) Added get\+\_\+display\+\_\+size for \char`\"{}\+I\+M\+G\char`\"{} tags.
+
+Licensed under The M\+I\+T License Redistributions of files must retain the above copyright notice.
+
+\begin{DoxyAuthor}{Author}
+S.\+C. Chen \href{mailto:me578022@gmail.com}{\tt me578022@gmail.\+com} 
+
+John Schlick 
+
+Rus Carroll 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+5 (
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Rev}
+196 
+\end{DoxyParagraph}
+)
+
+\hyperlink{classsimple__html__dom}{simple\+\_\+html\+\_\+dom}
+
+simple html dom node Paper\+G -\/ added ability for \char`\"{}find\char`\"{} routine to lowercase the value of the selector. Paper\+G -\/ added \$tag\+\_\+start to track the start position of the tag in the total byte index
+
+simple html dom parser Paperg -\/ in the find routine\+: allow us to specify that we want case insensitive testing of the value of the selector. Paperg -\/ change \$size from protected to public so we can easily access it Paperg -\/ added Force\+Tags\+Closed in the constructor which tells us whether we trust the html or not. Default is to N\+O\+T trust it. 

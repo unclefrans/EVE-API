@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_d124e263b89fef858908a3307c6b964d" kind="dir">
+    <compoundname>parser/app/js</compoundname>
+    <innerfile refid="jquery_8js">jquery.js</innerfile>
+    <innerfile refid="jquery_8treeview_8js">jquery.treeview.js</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Wamp/www/EVE API/parser/app/js/"/>
+  </compounddef>
+</doxygen>

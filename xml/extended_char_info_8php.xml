@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="extended_char_info_8php" kind="file">
+    <compoundname>extendedCharInfo.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="extended_char_info_8php_1a19e4271e6a84a7952c9efc65569318bc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$keyID</definition>
+        <argsstring></argsstring>
+        <name>$keyID</name>
+        <initializer>= 2586734</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="9" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="extended_char_info_8php_1a55dd43886b9084aeee05444024079444" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$vCode</definition>
+        <argsstring></argsstring>
+        <name>$vCode</name>
+        <initializer>= &quot;7h8rFneFEUNo9jRx9aQTQwz7TmY8ymsuKZ5EhVwsOgOg5RKOGuyYp5BVrV9wT1d1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="10" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="extended_char_info_8php_1abefc751ae3769a84949f113f6e8ae22f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$Account</definition>
+        <argsstring></argsstring>
+        <name>$Account</name>
+        <initializer>= &quot;account/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="13" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="extended_char_info_8php_1a38da29911be0da333c1f17b6a041918a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$Character</definition>
+        <argsstring></argsstring>
+        <name>$Character</name>
+        <initializer>= &quot;char/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="14" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="extended_char_info_8php_1aa273c7f3c849bf5816ad71a34d67cba4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$AccStatus</definition>
+        <argsstring></argsstring>
+        <name>$AccStatus</name>
+        <initializer>= &quot;AccountStatus.xml.aspx&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="17" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="extended_char_info_8php_1a10d1e3a184be06f7c8c027e7797f3620" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$Characters</definition>
+        <argsstring></argsstring>
+        <name>$Characters</name>
+        <initializer>= &quot;Characters.xml.aspx&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="19" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="extended_char_info_8php_1acf215f34a917d014776ce684a9ee8909" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$url</definition>
+        <argsstring></argsstring>
+        <name>$url</name>
+        <initializer>= &quot;https://api.eveonline.com/&quot;.$Account.$AccStatus.&quot;?keyID=&quot;.$keyID.&quot;&amp;vCode=&quot;.$vCode.&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="22" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="extended_char_info_8php_1aa108d9d91e700ac530401dd363b0723b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$xml</definition>
+        <argsstring></argsstring>
+        <name>$xml</name>
+        <initializer>= simplexml_load_file($url)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="23" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="extended_char_info_8php_1a444ade3168a017bb623e84a4ff959155" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>foreach</definition>
+        <argsstring>($xml-&gt;currentTime as $currentTime)</argsstring>
+        <name>foreach</name>
+        <initializer>= &lt;&lt;&lt;HTML
+&lt;form <ref refid="dom__testcase_8php_1a7e76f3957f225b9a14d6fab0a55392ce" kindref="member">name</ref>=&quot;form1&quot; method=&quot;post&quot; action=&quot;&quot;&gt;
+    &lt;input <ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=&quot;checkbox&quot; name=&quot;checkbox1&quot; value=&quot;checkbox1&quot; checked&gt;item1&lt;br&gt;
+    &lt;input <ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=&quot;checkbox&quot; name=&quot;checkbox2&quot; value=&quot;checkbox2&quot;&gt;item2&lt;br&gt;
+    &lt;input <ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=&quot;checkbox&quot; name=&quot;checkbox3&quot; value=&quot;checkbox3&quot; checked&gt;item3&lt;br&gt;
+&lt;/form&gt;
+HTML</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="30" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="extended_char_info_8php_1af3a16c5f0dd7a74cf9acf6a49fff73a7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$x</definition>
+        <argsstring></argsstring>
+        <name>$x</name>
+        <initializer>= &apos;x&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/extendedCharInfo.php" line="116" column="1" bodyfile="C:/Wamp/www/EVE API/extendedCharInfo.php" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;!DOCTYPE<sp/>html<sp/>PUBLIC<sp/></highlight><highlight class="stringliteral">&quot;-//W3C//DTD<sp/>XHTML<sp/>1.0<sp/>Transitional//EN&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;html<sp/>xmlns=</highlight><highlight class="stringliteral">&quot;http://www.w3.org/1999/xhtml&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;head&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;style&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/style&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/head&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="extended_char_info_8php_1a19e4271e6a84a7952c9efc65569318bc" kindref="member">$keyID</ref><sp/>=<sp/>2586734;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="extended_char_info_8php_1a55dd43886b9084aeee05444024079444" kindref="member">$vCode</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;7h8rFneFEUNo9jRx9aQTQwz7TmY8ymsuKZ5EhVwsOgOg5RKOGuyYp5BVrV9wT1d1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="extended_char_info_8php_1abefc751ae3769a84949f113f6e8ae22f" kindref="member">$Account</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;account/&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><ref refid="extended_char_info_8php_1a38da29911be0da333c1f17b6a041918a" kindref="member">$Character</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;char/&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//Account</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="extended_char_info_8php_1aa273c7f3c849bf5816ad71a34d67cba4" kindref="member">$AccStatus</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;AccountStatus.xml.aspx&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//$APIKeyInfo<sp/>=<sp/>&quot;APIKeyInfo.xml.aspx&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="extended_char_info_8php_1a10d1e3a184be06f7c8c027e7797f3620" kindref="member">$Characters</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Characters.xml.aspx&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//Account<sp/>Status</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><ref refid="extended_char_info_8php_1acf215f34a917d014776ce684a9ee8909" kindref="member">$url</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;https://api.eveonline.com/&quot;</highlight><highlight class="normal">.$Account.$AccStatus.</highlight><highlight class="stringliteral">&quot;?keyID=&quot;</highlight><highlight class="normal">.<ref refid="extended_char_info_8php_1a19e4271e6a84a7952c9efc65569318bc" kindref="member">$keyID</ref>.</highlight><highlight class="stringliteral">&quot;&amp;vCode=&quot;</highlight><highlight class="normal">.<ref refid="extended_char_info_8php_1a55dd43886b9084aeee05444024079444" kindref="member">$vCode</ref>.</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="extended_char_info_8php_1aa108d9d91e700ac530401dd363b0723b" kindref="member">$xml</ref><sp/>=<sp/>simplexml_load_file(<ref refid="extended_char_info_8php_1acf215f34a917d014776ce684a9ee8909" kindref="member">$url</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//echo<sp/>($xml);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;table&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;th&gt;Current<sp/>Date:&lt;/th&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="extended_char_info_8php_1aa108d9d91e700ac530401dd363b0723b" kindref="member">$xml</ref>-&gt;currentTime<sp/>as<sp/>$currentTime)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>($currentTime);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;th&gt;Paid<sp/>Until:&lt;/th&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="extended_char_info_8php_1aa108d9d91e700ac530401dd363b0723b" kindref="member">$xml</ref>-&gt;result-&gt;paidUntil<sp/>as<sp/>$paidUntil)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>($paidUntil);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;th&gt;Account<sp/>Creation<sp/>Date:&lt;/th&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="extended_char_info_8php_1aa108d9d91e700ac530401dd363b0723b" kindref="member">$xml</ref>-&gt;result-&gt;createDate<sp/>as<sp/>$createDate)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>($createDate);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;th&gt;Times<sp/>Logged<sp/>In:&lt;/th&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="extended_char_info_8php_1aa108d9d91e700ac530401dd363b0723b" kindref="member">$xml</ref>-&gt;result-&gt;logonCount<sp/>as<sp/>$logonCount)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>($logonCount);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;th&gt;Minutes<sp/>Logged<sp/>In:&lt;/th&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="extended_char_info_8php_1aa108d9d91e700ac530401dd363b0723b" kindref="member">$xml</ref>-&gt;result-&gt;logonMinutes<sp/>as<sp/>$logonMinutes)<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>($logonMinutes);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/table&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/br&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//Account<sp/>API<sp/>Status</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//WE<sp/>DONT<sp/>NEED<sp/>THIS<sp/>BULLSHIT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//Characters<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><ref refid="extended_char_info_8php_1acf215f34a917d014776ce684a9ee8909" kindref="member">$url</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;https://api.eveonline.com/&quot;</highlight><highlight class="normal">.$Account.$Characters.</highlight><highlight class="stringliteral">&quot;?keyID=&quot;</highlight><highlight class="normal">.<ref refid="extended_char_info_8php_1a19e4271e6a84a7952c9efc65569318bc" kindref="member">$keyID</ref>.</highlight><highlight class="stringliteral">&quot;&amp;vCode=&quot;</highlight><highlight class="normal">.<ref refid="extended_char_info_8php_1a55dd43886b9084aeee05444024079444" kindref="member">$vCode</ref>.</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><ref refid="extended_char_info_8php_1aa108d9d91e700ac530401dd363b0723b" kindref="member">$xml</ref><sp/>=<sp/>simplexml_load_file(<ref refid="extended_char_info_8php_1acf215f34a917d014776ce684a9ee8909" kindref="member">$url</ref>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;table&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;th&gt;Name&lt;/th&gt;&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;th&gt;Corporation&lt;/th&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;th&gt;CharacterID&lt;/th&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;th&gt;CorporationID&lt;/th&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(<ref refid="extended_char_info_8php_1aa108d9d91e700ac530401dd363b0723b" kindref="member">$xml</ref>-&gt;result-&gt;rowset-&gt;row<sp/>as<sp/>$row)<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>$nameChar<sp/>=<sp/>$row{</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>$nameCorp<sp/>=<sp/>$row{</highlight><highlight class="stringliteral">&apos;corporationName&apos;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>$charID<sp/>=<sp/>$row{</highlight><highlight class="stringliteral">&apos;characterID&apos;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>$corpID<sp/>=<sp/>$row{</highlight><highlight class="stringliteral">&apos;corporationID&apos;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="extended_char_info_8php_1acf215f34a917d014776ce684a9ee8909" kindref="member">$url</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;https://api.eveonline.com/char/AccountBalance.xml.aspx?keyID=&quot;</highlight><highlight class="normal">.$keyID.</highlight><highlight class="stringliteral">&quot;&amp;vCode=&quot;</highlight><highlight class="normal">.<ref refid="extended_char_info_8php_1a55dd43886b9084aeee05444024079444" kindref="member">$vCode</ref>.</highlight><highlight class="stringliteral">&quot;&amp;characterID=&quot;</highlight><highlight class="normal">.$charID;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;a<sp/>href=&quot;</highlight><highlight class="normal">.$url.</highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal">.$nameChar.</highlight><highlight class="stringliteral">&quot;&lt;/a&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>$nameCorp;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>$charID;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>$corpID;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/td&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/tr&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/table&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/br&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><ref refid="extended_char_info_8php_1af3a16c5f0dd7a74cf9acf6a49fff73a7" kindref="member">$x</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;x&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;a<sp/>href=&quot;extendedCharInfo.php&quot;<sp/>target=&quot;_blank&quot;&gt;Click<sp/>me<sp/>please&lt;/a&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">?&gt;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;body&gt;<sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;form<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;inputAPI&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/><ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=</highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;inputKeyId&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;2586734&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;inputVerCod&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;7h8rFneFEUNo9jRx9aQTQwz7TmY8ymsuKZ5EhVwsOgOg5RKOGuyYp5BVrV9wT1d1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;inputSub&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;Submit&quot;</highlight><highlight class="normal"><sp/>onclick=</highlight><highlight class="stringliteral">&quot;validateInput();<sp/>return<sp/>false;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/form&gt;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;mydiv&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;script&gt;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>validateInput()<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>x<sp/>=<sp/>document.getElementById(</highlight><highlight class="stringliteral">&apos;inputKeyId&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>y<sp/>=<sp/>document.getElementById(</highlight><highlight class="stringliteral">&apos;inputVerCod&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>the<sp/>input<sp/>key<sp/>id</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>x.value<sp/>!=<sp/>parseInt<sp/>(<sp/>x.value<sp/>)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x.value<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Key<sp/>Id<sp/>has<sp/>to<sp/>be<sp/>digits<sp/>only!&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x.style.backgroundColor<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;red&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>x.value.length<sp/>!=<sp/>7<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x.value<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Key<sp/>Id<sp/>should<sp/>be<sp/>7<sp/>digits!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x.style.backgroundColor<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;red&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x.style.backgroundColor<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;green&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>KeyID<sp/>=<sp/>x.value;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>the<sp/>input<sp/>verification<sp/>code</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>y.value.length<sp/>!=<sp/>64<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y.value<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>verification<sp/>code<sp/>should<sp/>exist<sp/>out<sp/>of<sp/>64<sp/>numbers<sp/>and<sp/>letters!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y.style.backgroundColor<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;red&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y.style.backgroundColor<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;green&quot;</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>vCode<sp/>=<sp/>y.value;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if<sp/>everything<sp/>is<sp/>cool,<sp/>open<sp/>it</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>(<sp/>x.style.backgroundColor<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;green&quot;</highlight><highlight class="normal"><sp/>)<sp/>&amp;&amp;<sp/>(<sp/>y.style.backgroundColor<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;green&quot;</highlight><highlight class="normal"><sp/>)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>loadPage(<sp/>x,<sp/>y<sp/>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>loadPage(<sp/>x,<sp/>y<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="jquery_8js_1a04a8a2bbfa9c15500892b8e5033d625b" kindref="member">window</ref>.open(<sp/></highlight><highlight class="stringliteral">&apos;https://api.eveonline.com/account/Characters.xml.aspx?keyID=&apos;</highlight><highlight class="normal"><sp/>+<sp/>x.value<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;&amp;vCode=&apos;</highlight><highlight class="normal"><sp/>+<sp/>y.value,<sp/></highlight><highlight class="stringliteral">&apos;_blank&apos;</highlight><highlight class="normal"><sp/>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/script&gt;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/body&gt;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">&lt;/html&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/extendedCharInfo.php"/>
+  </compounddef>
+</doxygen>

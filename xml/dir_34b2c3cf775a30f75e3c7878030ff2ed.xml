@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_34b2c3cf775a30f75e3c7878030ff2ed" kind="dir">
+    <compoundname>parser/manual</compoundname>
+    <innerdir refid="dir_eeb5fb8cd673f8d547bda1bf4ac491f7">parser/manual/js</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Wamp/www/EVE API/parser/manual/"/>
+  </compounddef>
+</doxygen>

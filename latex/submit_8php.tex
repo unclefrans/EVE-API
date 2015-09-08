@@ -1,0 +1,44 @@
+\hypertarget{submit_8php}{\section{submit.\+php File Reference}
+\label{submit_8php}\index{submit.\+php@{submit.\+php}}
+}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_test}{Test}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{submit_8php_a1585f1347cd30da8040cc965a42421e3}{\$\+Key\+I\+D} = \$\+\_\+\+G\+E\+T\mbox{[}\char`\"{}input\+Key\+I\+D\char`\"{}\mbox{]}
+\item 
+\hyperlink{submit_8php_a55dd43886b9084aeee05444024079444}{\$v\+Code} = \$\+\_\+\+G\+E\+T\mbox{[}\char`\"{}inputv\+Code\char`\"{}\mbox{]}
+\item 
+\hyperlink{submit_8php_acf215f34a917d014776ce684a9ee8909}{\$url} = \char`\"{}https\+://api.\+eveonline.\+com/account/Characters.\+xml.\+aspx?key\+I\+D=\char`\"{}.\$Key\+I\+D.\char`\"{}\&v\+Code=\char`\"{}.\$v\+Code.\char`\"{}\char`\"{}
+\item 
+\hyperlink{jquery_8js_ab4c5802d7f227159da47eb29ec6900c0}{if}(!@\$xml=simplexml\+\_\+load\+\_\+file(\$url)) \hyperlink{submit_8php_ac88ce4490803385e170e756011ae87f5}{else}
+\item 
+\hyperlink{submit_8php_ac504d4a137641e880f0b9693d36d2e16}{foreach} (\$xml-\/$>$result-\/$>$rowset-\/$>$row as \$row)
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{submit_8php_a1585f1347cd30da8040cc965a42421e3}{\index{submit.\+php@{submit.\+php}!\$\+Key\+I\+D@{\$\+Key\+I\+D}}
+\index{\$\+Key\+I\+D@{\$\+Key\+I\+D}!submit.\+php@{submit.\+php}}
+\subsubsection[{\$\+Key\+I\+D}]{\setlength{\rightskip}{0pt plus 5cm}\$Key\+I\+D = \$\+\_\+\+G\+E\+T\mbox{[}\char`\"{}input\+Key\+I\+D\char`\"{}\mbox{]}}}\label{submit_8php_a1585f1347cd30da8040cc965a42421e3}
+\hypertarget{submit_8php_acf215f34a917d014776ce684a9ee8909}{\index{submit.\+php@{submit.\+php}!\$url@{\$url}}
+\index{\$url@{\$url}!submit.\+php@{submit.\+php}}
+\subsubsection[{\$url}]{\setlength{\rightskip}{0pt plus 5cm}\$url = \char`\"{}https\+://api.\+eveonline.\+com/account/Characters.\+xml.\+aspx?key\+I\+D=\char`\"{}.\$Key\+I\+D.\char`\"{}\&v\+Code=\char`\"{}.\$v\+Code.\char`\"{}\char`\"{}}}\label{submit_8php_acf215f34a917d014776ce684a9ee8909}
+\hypertarget{submit_8php_a55dd43886b9084aeee05444024079444}{\index{submit.\+php@{submit.\+php}!\$v\+Code@{\$v\+Code}}
+\index{\$v\+Code@{\$v\+Code}!submit.\+php@{submit.\+php}}
+\subsubsection[{\$v\+Code}]{\setlength{\rightskip}{0pt plus 5cm}\$v\+Code = \$\+\_\+\+G\+E\+T\mbox{[}\char`\"{}inputv\+Code\char`\"{}\mbox{]}}}\label{submit_8php_a55dd43886b9084aeee05444024079444}
+\hypertarget{submit_8php_ac88ce4490803385e170e756011ae87f5}{\index{submit.\+php@{submit.\+php}!else@{else}}
+\index{else@{else}!submit.\+php@{submit.\+php}}
+\subsubsection[{else}]{\setlength{\rightskip}{0pt plus 5cm}{\bf if} (!@\$xml=simplexml\+\_\+load\+\_\+file(\$url)) else}}\label{submit_8php_ac88ce4490803385e170e756011ae87f5}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+\{
+                echo \textcolor{stringliteral}{"<table><tr><th>KeyID</th><td>"}.$KeyID.\textcolor{stringliteral}{"</td></tr>"}
+\end{DoxyCode}
+\hypertarget{submit_8php_ac504d4a137641e880f0b9693d36d2e16}{\index{submit.\+php@{submit.\+php}!foreach@{foreach}}
+\index{foreach@{foreach}!submit.\+php@{submit.\+php}}
+\subsubsection[{foreach}]{\setlength{\rightskip}{0pt plus 5cm}foreach(\$xml-\/$>$result-\/$>$rowset-\/$>$row as \$row)}}\label{submit_8php_ac504d4a137641e880f0b9693d36d2e16}

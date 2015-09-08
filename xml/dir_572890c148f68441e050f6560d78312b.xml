@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_572890c148f68441e050f6560d78312b" kind="dir">
+    <compoundname>parser</compoundname>
+    <innerdir refid="dir_946e2f5fff6b87e39e188167de305fdf">parser/app</innerdir>
+    <innerdir refid="dir_266804247df2a7dfde92a0c65aa92a53">parser/example</innerdir>
+    <innerdir refid="dir_34b2c3cf775a30f75e3c7878030ff2ed">parser/manual</innerdir>
+    <innerdir refid="dir_446b3dd0be083fb7fb2be86da025aba8">parser/testcase</innerdir>
+    <innerfile refid="simple__html__dom_8php">simple_html_dom.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Wamp/www/EVE API/parser/"/>
+  </compounddef>
+</doxygen>

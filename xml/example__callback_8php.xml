@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="example__callback_8php" kind="file">
+    <compoundname>example_callback.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="example__callback_8php_1a6f96e7fc92441776c9d1cd3386663b40" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$html</definition>
+        <argsstring></argsstring>
+        <name>$html</name>
+        <initializer>= <ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(&apos;http://www.google.com/&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/example/example_callback.php" line="19" column="1" bodyfile="C:/Wamp/www/EVE API/parser/example/example_callback.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__callback_8php_1a58da3700095082db9a25ef6a5230251a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>my_callback</definition>
+        <argsstring>($element)</argsstring>
+        <name>my_callback</name>
+        <param>
+          <declname>$element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/example/example_callback.php" line="6" column="1" bodyfile="C:/Wamp/www/EVE API/parser/example/example_callback.php" bodystart="6" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">include_once(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>1.<sp/>Write<sp/>a<sp/>function<sp/>with<sp/>parameter<sp/>&quot;$element&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="example__callback_8php_1a58da3700095082db9a25ef6a5230251a" kindref="member">my_callback</ref>($element)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($element-&gt;tag==</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$element-&gt;outertext<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($element-&gt;tag==</highlight><highlight class="stringliteral">&apos;img&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$element-&gt;outertext<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;img&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($element-&gt;tag==</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$element-&gt;outertext<sp/>=<sp/></highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2.<sp/>create<sp/>HTML<sp/>Dom</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="example__callback_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(</highlight><highlight class="stringliteral">&apos;http://www.google.com/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>3.<sp/>Register<sp/>the<sp/>callback<sp/>function<sp/>with<sp/>it&apos;s<sp/>function<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="example__callback_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;set_callback(</highlight><highlight class="stringliteral">&apos;my_callback&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>4.<sp/>Callback<sp/>function<sp/>will<sp/>be<sp/>invoked<sp/>while<sp/>dumping</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">echo<sp/><ref refid="example__callback_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/example/example_callback.php"/>
+  </compounddef>
+</doxygen>

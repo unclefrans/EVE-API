@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_946e2f5fff6b87e39e188167de305fdf" kind="dir">
+    <compoundname>parser/app</compoundname>
+    <innerdir refid="dir_d124e263b89fef858908a3307c6b964d">parser/app/js</innerdir>
+    <innerfile refid="parser_2app_2index_8php">index.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Wamp/www/EVE API/parser/app/"/>
+  </compounddef>
+</doxygen>

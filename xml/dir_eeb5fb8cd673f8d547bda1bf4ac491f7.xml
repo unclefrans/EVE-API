@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_eeb5fb8cd673f8d547bda1bf4ac491f7" kind="dir">
+    <compoundname>parser/manual/js</compoundname>
+    <innerfile refid="manual_2js_2jquery-1_82_83_8pack_8js">jquery-1.2.3.pack.js</innerfile>
+    <innerfile refid="ui_8tabs_8pack_8js">ui.tabs.pack.js</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Wamp/www/EVE API/parser/manual/js/"/>
+  </compounddef>
+</doxygen>

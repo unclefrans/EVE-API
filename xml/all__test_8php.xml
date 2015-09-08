@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="all__test_8php" kind="file">
+    <compoundname>all_test.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="all__test_8php_1a0f3d668988d06b895d47a153969ab4ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>quick_test</definition>
+        <argsstring>($html_dom, $str, $selector, $params=array(&apos;inner&apos;=&gt;&apos;&apos;, &apos;plain&apos;=&gt;&apos;&apos;, &apos;outer&apos;=&gt;&apos;&apos;))</argsstring>
+        <name>quick_test</name>
+        <param>
+          <declname>$html_dom</declname>
+        </param>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$selector</declname>
+        </param>
+        <param>
+          <declname>$params</declname>
+          <defval>array(&apos;inner&apos;=&gt;&apos;&apos;, &apos;plain&apos;=&gt;&apos;&apos;, &apos;outer&apos;=&gt;&apos;&apos;)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/all_test.php" line="5" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/all_test.php" bodystart="5" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Rev:<sp/>175<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">error_reporting(E_ALL);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="all__test_8php_1a0f3d668988d06b895d47a153969ab4ec" kindref="member">quick_test</ref>($html_dom,<sp/><ref refid="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" kindref="member">$str</ref>,<sp/>$selector,<sp/>$params=array(</highlight><highlight class="stringliteral">&apos;inner&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;plain&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;outer&apos;</highlight><highlight class="normal">=&gt;</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>$html_dom-&gt;load(<ref refid="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref><sp/>=<sp/>$html_dom-&gt;find($selector,<sp/>0);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($params[</highlight><highlight class="stringliteral">&apos;inner&apos;</highlight><highlight class="normal">]))</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;innertext===$params[</highlight><highlight class="stringliteral">&apos;inner&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($params[</highlight><highlight class="stringliteral">&apos;plain&apos;</highlight><highlight class="normal">]))</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;plaintext===$params[</highlight><highlight class="stringliteral">&apos;plain&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($params[</highlight><highlight class="stringliteral">&apos;outer&apos;</highlight><highlight class="normal">]))</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;outertext===$params[</highlight><highlight class="stringliteral">&apos;outer&apos;</highlight><highlight class="normal">]);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>assert($html_dom==<ref refid="example__advanced__selector_8php_1a2ea7d17e34a7460258441ecc9ab825ae" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>DirectoryIterator(getcwd())<sp/>as<sp/>$entry)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($entry-&gt;isFile()<sp/>&amp;&amp;<sp/>strpos($entry,<sp/></highlight><highlight class="stringliteral">&apos;_testcase.&apos;</highlight><highlight class="normal">)&gt;0)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>basename($entry);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>require_once($entry);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;br&gt;...pass!&lt;br&gt;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/testcase/all_test.php"/>
+  </compounddef>
+</doxygen>

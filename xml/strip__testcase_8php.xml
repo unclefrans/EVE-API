@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="strip__testcase_8php" kind="file">
+    <compoundname>strip_testcase.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dom</definition>
+        <argsstring></argsstring>
+        <name>$dom</name>
+        <initializer>= new <ref refid="classsimple__html__dom" kindref="compound">simple_html_dom</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/strip_testcase.php" line="7" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/strip_testcase.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$str</definition>
+        <argsstring></argsstring>
+        <name>$str</name>
+        <initializer>= &lt;&lt;&lt;HTML
+&lt;div class=&quot;class0&quot; id=&quot;id0&quot; &gt;
+    &lt;!--
+        &lt;input <ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=submit <ref refid="dom__testcase_8php_1a7e76f3957f225b9a14d6fab0a55392ce" kindref="member">name</ref>=&quot;btnG&quot; value=&quot;go&quot; onclick=&apos;goto(&quot;url0&quot;)&apos;&gt;
+    --&gt;
+&lt;/div&gt;
+HTML</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/strip_testcase.php" line="11" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/strip_testcase.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="strip__testcase_8php_1aa901575d6c772d2340f7e16cf7028985" prot="public" static="no" mutable="no">
+        <type>&lt;/style &gt;&lt; scripttype=&quot;text/javascript&quot;&gt; var</type>
+        <definition>&lt;/style &gt;&lt; script &gt; var foo</definition>
+        <argsstring></argsstring>
+        <name>foo</name>
+        <initializer>= &quot;bar&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/strip_testcase.php" line="56" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/strip_testcase.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Rev:<sp/>169<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>setup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">error_reporting(E_ALL);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">require_once(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsimple__html__dom" kindref="compound">simple_html_dom</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>comments<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;class0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;id0&quot;</highlight><highlight class="normal"><sp/>&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;!--</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/><ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=submit<sp/><ref refid="jquery_8js_1a7e76f3957f225b9a14d6fab0a55392ce" kindref="member">name</ref>=</highlight><highlight class="stringliteral">&quot;btnG&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;go&quot;</highlight><highlight class="normal"><sp/>onclick=</highlight><highlight class="stringliteral">&apos;goto(&quot;url0&quot;)&apos;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>--&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load(<ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">))==0);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;code&gt;<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;class0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;id0&quot;</highlight><highlight class="normal"><sp/>&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;CODE&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/><ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=submit<sp/><ref refid="jquery_8js_1a7e76f3957f225b9a14d6fab0a55392ce" kindref="member">name</ref>=</highlight><highlight class="stringliteral">&quot;btnG&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;go&quot;</highlight><highlight class="normal"><sp/>onclick=</highlight><highlight class="stringliteral">&apos;goto(&quot;url0&quot;)&apos;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/CODE&gt;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load(<ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;code&apos;</highlight><highlight class="normal">))==1);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">))==0);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;pre&gt;<sp/>&amp;<sp/>&lt;code&gt;<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">&lt;PRE&gt;&lt;CODE<sp/>CLASS=Java&gt;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;input<sp/>type=submit<sp/>name=</highlight><highlight class="stringliteral">&quot;btnG&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;go&quot;</highlight><highlight class="normal"><sp/>onclick=</highlight><highlight class="stringliteral">&apos;goto(&quot;url0&quot;)&apos;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">&lt;/CODE&gt;&lt;/PRE&gt;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load(<ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;pre&apos;</highlight><highlight class="normal">))==1);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">))==0);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;script&gt;<sp/>&amp;<sp/>&lt;style&gt;<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;test.js&quot;</highlight><highlight class="normal">&gt;&lt;/script&gt;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;test.js&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">&lt;style<sp/>type=</highlight><highlight class="stringliteral">&quot;text/css&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>url(</highlight><highlight class="stringliteral">&quot;style.css&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">&lt;/style&gt;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">var<sp/><ref refid="strip__testcase_8php_1aa901575d6c772d2340f7e16cf7028985" kindref="member">foo</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;bar&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">&lt;/script&gt;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load(<ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;style&apos;</highlight><highlight class="normal">))==1);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;script&apos;</highlight><highlight class="normal">))==3);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">//<sp/>php<sp/>short<sp/>tag<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;&lt;?=h(&apos;ok&apos;)?&gt;&quot;</highlight><highlight class="normal">&gt;hello&lt;/a&gt;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">&lt;input<sp/>type=submit<sp/>name=</highlight><highlight class="stringliteral">&quot;btnG&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;&lt;?php<sp/>echoh(&apos;ok&apos;)?&gt;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load(<ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">assert(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="charliteral">&apos;a&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;href===</highlight><highlight class="stringliteral">&quot;&lt;?=h(&apos;ok&apos;)?&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">assert(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;value===</highlight><highlight class="stringliteral">&quot;&lt;?php<sp/>echoh(&apos;ok&apos;)?&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/>noise<sp/>stripping<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="strip__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">&lt;!--</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">&lt;img<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;class0&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;id0&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;src0&quot;</highlight><highlight class="normal">&gt;--&gt;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">&lt;img<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;class1&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;id1&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;src1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">&lt;!--&lt;img<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;class2&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;id2&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;src2&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">--&gt;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;img&apos;</highlight><highlight class="normal">))==1);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">assert(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>==$str);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;test1.js&quot;</highlight><highlight class="normal">&gt;ss&lt;/script&gt;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;test2.js&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;test3.js&quot;</highlight><highlight class="normal"><sp/>/&gt;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;test4.js&quot;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">/&gt;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal"><sp/>src=</highlight><highlight class="stringliteral">&quot;test5.js&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">&lt;style&gt;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>url(</highlight><highlight class="stringliteral">&quot;style1.css&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">&lt;/style&gt;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">&lt;script&gt;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">var<sp/>foo<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;bar&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">&lt;/script&gt;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">&lt;style<sp/>type=</highlight><highlight class="stringliteral">&quot;text/css&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">@</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>url(</highlight><highlight class="stringliteral">&quot;style2.css&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">&lt;/style&gt;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">&lt;style&gt;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">div,td,.n<sp/>a,.n<sp/>a:visited{color:#000}.ts<sp/>td,.tc{padding:0}.ts,.tb{border-collapse:collapse}.ti,.bl{display:</highlight><highlight class="keyword">inline</highlight><highlight class="normal">}.ti{display:</highlight><highlight class="keyword">inline</highlight><highlight class="normal">-table}.f,.m{color:#666}.flc,a.fl{color:#77c}a,.w,.q:visited,.q:active,.q,.b<sp/>a,.b<sp/>a:visited,.mblink:visited{color:#00c}a:visited{color:#551a8b}a:active{color:red}.t{background:#d5ddf3;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">color:#000;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">padding:5px<sp/>1px<sp/>4px}.bb{border-bottom:1px<sp/>solid<sp/>#36c}.bt{border-top:1px<sp/>solid<sp/>#36c}.j{width:34em}.h{color:#36c}.i{color:#a90a08}.a{color:green}.z{display:none}div.n{margin-top:1ex}.n<sp/>a,.n<sp/>.i{font-size:10pt}.n<sp/>.i,.b<sp/>a{font-weight:bold}.b<sp/>a{font-size:12pt}.std{font-size:82%}#np,#nn,.nr,#logo<sp/>span,.ch{cursor:pointer;cursor:hand}.ta{padding:3px<sp/>3px<sp/>3px<sp/>5px}#tpa2,#tpa3{padding-top:9px}#gbar{</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">:left;height:22px;padding-left:2px}.gbh,.gb2<sp/>div{border-top:1px<sp/>solid<sp/>#c9d7f1;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">&lt;/style&gt;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">&lt;!--<sp/>BEGIN<sp/>ADVERTPRO<sp/>ADVANCED<sp/>CODE<sp/>BLOCK<sp/>--&gt;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">&lt;script<sp/>language=</highlight><highlight class="stringliteral">&quot;JavaScript&quot;</highlight><highlight class="normal"><sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">&lt;!--</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">document.write(</highlight><highlight class="stringliteral">&apos;&lt;SCR&apos;</highlight><highlight class="normal">+</highlight><highlight class="stringliteral">&apos;IPT<sp/>src=&quot;zone?zid=159&amp;pid=0&amp;random=&apos;</highlight><highlight class="normal">+Math.floor(89999999*Math.random()+10000000)+</highlight><highlight class="stringliteral">&apos;&amp;millis=&apos;</highlight><highlight class="normal">+</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Date().getTime()+</highlight><highlight class="stringliteral">&apos;&quot;<sp/>language=&quot;JavaScript&quot;<sp/>type=&quot;text/javascript&quot;&gt;&lt;/SCR&apos;</highlight><highlight class="normal">+</highlight><highlight class="stringliteral">&apos;IPT&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//--&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">&lt;/script&gt;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal">&lt;!--<sp/>END<sp/>ADVERTPRO<sp/>ADVANCED<sp/>CODE<sp/>BLOCK<sp/>--&gt;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">&lt;script<sp/>type=</highlight><highlight class="stringliteral">&quot;text/javascript&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">var<sp/>foo<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;bar&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">&lt;/script&gt;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;script&apos;</highlight><highlight class="normal">))==8);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">assert(count(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;style&apos;</highlight><highlight class="normal">))==3);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">//echo<sp/>&quot;\n\n\n\n&quot;.$dom-&gt;save();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">assert(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>==$str);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tear<sp/>down</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>-&gt;clear();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">unset(<ref refid="strip__testcase_8php_1a46127a794280dd592812c25b62af34b0" kindref="member">$dom</ref>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/testcase/strip_testcase.php"/>
+  </compounddef>
+</doxygen>

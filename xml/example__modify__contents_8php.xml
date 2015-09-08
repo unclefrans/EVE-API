@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="example__modify__contents_8php" kind="file">
+    <compoundname>example_modify_contents.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="example__modify__contents_8php_1a6f96e7fc92441776c9d1cd3386663b40" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$html</definition>
+        <argsstring></argsstring>
+        <name>$html</name>
+        <initializer>= <ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(&apos;http://www.google.com/&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/example/example_modify_contents.php" line="6" column="1" bodyfile="C:/Wamp/www/EVE API/parser/example/example_modify_contents.php" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>example<sp/>of<sp/>how<sp/>to<sp/>modify<sp/>HTML<sp/>contents</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">include(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>get<sp/>DOM<sp/>from<sp/>URL<sp/>or<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="example__modify__contents_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(</highlight><highlight class="stringliteral">&apos;http://www.google.com/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>remove<sp/>all<sp/>image</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="example__modify__contents_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;img&apos;</highlight><highlight class="normal">)<sp/>as<sp/><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;outertext<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>replace<sp/>all<sp/>input</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="example__modify__contents_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">)<sp/>as<sp/><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;outertext<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;[INPUT]&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>dump<sp/>contents</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">echo<sp/><ref refid="example__modify__contents_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/example/example_modify_contents.php"/>
+  </compounddef>
+</doxygen>

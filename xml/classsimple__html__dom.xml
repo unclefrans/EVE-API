@@ -1,0 +1,1062 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classsimple__html__dom" kind="class" prot="public">
+    <compoundname>simple_html_dom</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsimple__html__dom_1ab37f7c32f41c3c61ed940887453767f4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$root</definition>
+        <argsstring></argsstring>
+        <name>$root</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="973" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="973" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1afc84f46342a660cca8589570197bc421" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$nodes</definition>
+        <argsstring></argsstring>
+        <name>$nodes</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="974" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="974" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1abc7c2ac0d93d22f71221e8b60512c860" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$callback</definition>
+        <argsstring></argsstring>
+        <name>$callback</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="975" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="975" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a8e20508789d34bc35e3b00ad58159d1c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$lowercase</definition>
+        <argsstring></argsstring>
+        <name>$lowercase</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="976" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="976" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1ac22338e9abaeaf63325d69086f9ac644" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$original_size</definition>
+        <argsstring></argsstring>
+        <name>$original_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="978" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="978" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1af594986e4618a8d6a5d7566617f583c6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$size</definition>
+        <argsstring></argsstring>
+        <name>$size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="979" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="979" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1ad6b00a32790b456a2f1668b2010a262e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_charset</definition>
+        <argsstring></argsstring>
+        <name>$_charset</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="991" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="991" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a8f23f043ea2af2e56d97bebf17347f23" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$_target_charset</definition>
+        <argsstring></argsstring>
+        <name>$_target_charset</name>
+        <initializer>= &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="992" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="992" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a0da61a0f0e8ff00f0ba83b363d7badda" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$default_span_text</definition>
+        <argsstring></argsstring>
+        <name>$default_span_text</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="994" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="994" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classsimple__html__dom_1a5de51f0c80b3bb3b39a57b23f6b9ea9f" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$pos</definition>
+        <argsstring></argsstring>
+        <name>$pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="980" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="980" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1afc5e9ce512cd97cf2e0e25bb20dcd39b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$doc</definition>
+        <argsstring></argsstring>
+        <name>$doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="981" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="981" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a128242871482e787498df34c33223f14" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$char</definition>
+        <argsstring></argsstring>
+        <name>$char</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="982" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="982" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a256b6d58b346bcd39d5bf5d49de70df2" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$cursor</definition>
+        <argsstring></argsstring>
+        <name>$cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="983" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a4e2313a4b35b72a06ac45fd38960f677" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$parent</definition>
+        <argsstring></argsstring>
+        <name>$parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="984" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="984" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a2774f17621ab4d3b64411f86c88df407" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$noise</definition>
+        <argsstring></argsstring>
+        <name>$noise</name>
+        <initializer>= array()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="985" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="985" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1ab7f68c12b4913a3685778154760151cd" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$token_blank</definition>
+        <argsstring></argsstring>
+        <name>$token_blank</name>
+        <initializer>= &quot; \t\r\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="986" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="986" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a554179de2a5fb6395ce5ec3ff38f3169" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$token_equal</definition>
+        <argsstring></argsstring>
+        <name>$token_equal</name>
+        <initializer>= &apos; =/&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="987" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a6e9298d28dc391aa70939916476fd4d1" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$token_slash</definition>
+        <argsstring></argsstring>
+        <name>$token_slash</name>
+        <initializer>= &quot; /&gt;\r\n\t&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="988" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="988" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a0fb7a78d4e17bb7d156df4f5b79c4d30" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$token_attr</definition>
+        <argsstring></argsstring>
+        <name>$token_attr</name>
+        <initializer>= &apos; &gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="989" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="989" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1abd3661f931d84bc5e904cfd8e8e00833" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$default_br_text</definition>
+        <argsstring></argsstring>
+        <name>$default_br_text</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="993" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="993" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1af36f0e679f54f7ee558dd5b96d4b8727" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$self_closing_tags</definition>
+        <argsstring></argsstring>
+        <name>$self_closing_tags</name>
+        <initializer>= array(&apos;img&apos;=&gt;1, &apos;br&apos;=&gt;1, &apos;input&apos;=&gt;1, &apos;meta&apos;=&gt;1, &apos;link&apos;=&gt;1, &apos;hr&apos;=&gt;1, &apos;base&apos;=&gt;1, &apos;embed&apos;=&gt;1, &apos;spacer&apos;=&gt;1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="997" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="997" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1ac513b8dc3142f886d0609b7893fe6026" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$block_tags</definition>
+        <argsstring></argsstring>
+        <name>$block_tags</name>
+        <initializer>= array(&apos;root&apos;=&gt;1, &apos;body&apos;=&gt;1, &apos;form&apos;=&gt;1, &apos;div&apos;=&gt;1, &apos;span&apos;=&gt;1, &apos;table&apos;=&gt;1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="998" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="998" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsimple__html__dom_1a0aa8137deceff2940ae24f30bdb37379" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$optional_closing_tags</definition>
+        <argsstring></argsstring>
+        <name>$optional_closing_tags</name>
+        <initializer>= array(
+        &apos;tr&apos;=&gt;array(&apos;tr&apos;=&gt;1, &apos;td&apos;=&gt;1, &apos;th&apos;=&gt;1),
+        &apos;th&apos;=&gt;array(&apos;th&apos;=&gt;1),
+        &apos;td&apos;=&gt;array(&apos;td&apos;=&gt;1),
+        &apos;li&apos;=&gt;array(&apos;li&apos;=&gt;1),
+        &apos;dt&apos;=&gt;array(&apos;dt&apos;=&gt;1, &apos;dd&apos;=&gt;1),
+        &apos;dd&apos;=&gt;array(&apos;dd&apos;=&gt;1, &apos;dt&apos;=&gt;1),
+        &apos;dl&apos;=&gt;array(&apos;dd&apos;=&gt;1, &apos;dt&apos;=&gt;1),
+        &apos;p&apos;=&gt;array(&apos;p&apos;=&gt;1),
+        &apos;nobr&apos;=&gt;array(&apos;nobr&apos;=&gt;1),
+        &apos;b&apos;=&gt;array(&apos;b&apos;=&gt;1),
+		&apos;option&apos;=&gt;array(&apos;option&apos;=&gt;1),
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1001" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1001" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsimple__html__dom_1a867090eb38a7d76f8df0b46d22a5226a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($str=null, $lowercase=true, $forceTagsClosed=true, $target_charset=DEFAULT_TARGET_CHARSET, $stripRN=true, $defaultBRText=DEFAULT_BR_TEXT, $defaultSpanText=DEFAULT_SPAN_TEXT)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$str</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$lowercase</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <declname>$forceTagsClosed</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <declname>$target_charset</declname>
+          <defval><ref refid="simple__html__dom_8php_1aeb01f6d83a65d695ad327473f838319a" kindref="member">DEFAULT_TARGET_CHARSET</ref></defval>
+        </param>
+        <param>
+          <declname>$stripRN</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <declname>$defaultBRText</declname>
+          <defval><ref refid="simple__html__dom_8php_1a898bdf60fe4d05c1c50013eed5e2c6e8" kindref="member">DEFAULT_BR_TEXT</ref></defval>
+        </param>
+        <param>
+          <declname>$defaultSpanText</declname>
+          <defval><ref refid="simple__html__dom_8php_1a30d58d7d3a53efc61f064b53a434bafe" kindref="member">DEFAULT_SPAN_TEXT</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1015" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1015" bodyend="1033"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a421831a265621325e1fdd19aace0c758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__destruct</definition>
+        <argsstring>()</argsstring>
+        <name>__destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1035" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1035" bodyend="1038"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a240a32865f9d9ea1fa681917547a65a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>load</definition>
+        <argsstring>($str, $lowercase=true, $stripRN=true, $defaultBRText=DEFAULT_BR_TEXT, $defaultSpanText=DEFAULT_SPAN_TEXT)</argsstring>
+        <name>load</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$lowercase</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <declname>$stripRN</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <declname>$defaultBRText</declname>
+          <defval><ref refid="simple__html__dom_8php_1a898bdf60fe4d05c1c50013eed5e2c6e8" kindref="member">DEFAULT_BR_TEXT</ref></defval>
+        </param>
+        <param>
+          <declname>$defaultSpanText</declname>
+          <defval><ref refid="simple__html__dom_8php_1a30d58d7d3a53efc61f064b53a434bafe" kindref="member">DEFAULT_SPAN_TEXT</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1041" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1041" bodyend="1075"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1acbf45344758b1a521534cc9cc8ebc5f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>load_file</definition>
+        <argsstring>()</argsstring>
+        <name>load_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1078" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1078" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a40e8b7bf2a1b1acc56b82f9221fb9266" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_callback</definition>
+        <argsstring>($function_name)</argsstring>
+        <name>set_callback</name>
+        <param>
+          <declname>$function_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1090" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1090" bodyend="1093"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a0af324763ae6d1a475455af727fc5037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>remove_callback</definition>
+        <argsstring>()</argsstring>
+        <name>remove_callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1096" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1096" bodyend="1099"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a6e80614bedc0513a210906c36f608fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>save</definition>
+        <argsstring>($filepath=&apos;&apos;)</argsstring>
+        <name>save</name>
+        <param>
+          <declname>$filepath</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1102" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1102" bodyend="1107"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1afbf375e355aa32c25f7e389a04ddced0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>find</definition>
+        <argsstring>($selector, $idx=null, $lowercase=false)</argsstring>
+        <name>find</name>
+        <param>
+          <declname>$selector</declname>
+        </param>
+        <param>
+          <declname>$idx</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <declname>$lowercase</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1111" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1111" bodyend="1114"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1aa821bec12eaa7e0f649397c9675ff505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1117" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1117" bodyend="1126"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1ad2a305d3f759f9c444d5b2e686586598" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dump</definition>
+        <argsstring>($show_attr=true)</argsstring>
+        <name>dump</name>
+        <param>
+          <declname>$show_attr</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1128" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1128" bodyend="1131"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a65768af772cc55c11fc85d4d8697140e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>restore_noise</definition>
+        <argsstring>($text)</argsstring>
+        <name>restore_noise</name>
+        <param>
+          <declname>$text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1640" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1640" bodyend="1670"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a7bcdfb5fa10cf704553ff32f5f5d693f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>search_noise</definition>
+        <argsstring>($text)</argsstring>
+        <name>search_noise</name>
+        <param>
+          <declname>$text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1673" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1673" bodyend="1685"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a7516ca30af0db3cdbf9a7739b48ce91d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__toString</definition>
+        <argsstring>()</argsstring>
+        <name>__toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1686" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1686" bodyend="1689"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1abc8e9e31bb15c8a44c3210ec551407c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__get</definition>
+        <argsstring>($name)</argsstring>
+        <name>__get</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1691" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1691" bodyend="1706"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a543b9f022b4d71d19a8f055b3b87bb77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>childNodes</definition>
+        <argsstring>($idx=-1)</argsstring>
+        <name>childNodes</name>
+        <param>
+          <declname>$idx</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1709" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1709" bodyend="1709"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a2e7ff3e4db465652634f86004ccb83db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>firstChild</definition>
+        <argsstring>()</argsstring>
+        <name>firstChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1710" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1710" bodyend="1710"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1aa290d153aa9b41988d2b4bfb23424241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lastChild</definition>
+        <argsstring>()</argsstring>
+        <name>lastChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1711" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1711" bodyend="1711"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a00ba25421a388987512a3859ff7c2ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>createElement</definition>
+        <argsstring>($name, $value=null)</argsstring>
+        <name>createElement</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1712" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1712" bodyend="1712"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1af9ee904e108e5c1956eec226881a9442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>createTextNode</definition>
+        <argsstring>($value)</argsstring>
+        <name>createTextNode</name>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1713" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1713" bodyend="1713"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1aec6ca41b9859728595ece521ca638e48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getElementById</definition>
+        <argsstring>($id)</argsstring>
+        <name>getElementById</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1714" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1714" bodyend="1714"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a12433180a44804217a6089284c1e337a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getElementsById</definition>
+        <argsstring>($id, $idx=null)</argsstring>
+        <name>getElementsById</name>
+        <param>
+          <declname>$id</declname>
+        </param>
+        <param>
+          <declname>$idx</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1715" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1715" bodyend="1715"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a73eb6caf89c86044a5ed0092484f375d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getElementByTagName</definition>
+        <argsstring>($name)</argsstring>
+        <name>getElementByTagName</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1716" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1716" bodyend="1716"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a3f59e79eb934dd4d4ef322f20d368849" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getElementsByTagName</definition>
+        <argsstring>($name, $idx=-1)</argsstring>
+        <name>getElementsByTagName</name>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$idx</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1717" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1717" bodyend="1717"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a4ab90327dc2941e600549ddf19e75bbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>loadFile</definition>
+        <argsstring>()</argsstring>
+        <name>loadFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1718" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1718" bodyend="1718"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classsimple__html__dom_1a5c2e8093a84d64af2fdcbd9116a297d1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>prepare</definition>
+        <argsstring>($str, $lowercase=true, $stripRN=true, $defaultBRText=DEFAULT_BR_TEXT, $defaultSpanText=DEFAULT_SPAN_TEXT)</argsstring>
+        <name>prepare</name>
+        <param>
+          <declname>$str</declname>
+        </param>
+        <param>
+          <declname>$lowercase</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <declname>$stripRN</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <declname>$defaultBRText</declname>
+          <defval><ref refid="simple__html__dom_8php_1a898bdf60fe4d05c1c50013eed5e2c6e8" kindref="member">DEFAULT_BR_TEXT</ref></defval>
+        </param>
+        <param>
+          <declname>$defaultSpanText</declname>
+          <defval><ref refid="simple__html__dom_8php_1a30d58d7d3a53efc61f064b53a434bafe" kindref="member">DEFAULT_SPAN_TEXT</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1134" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1134" bodyend="1166"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a38d99acc70a1d8fd8f94455743b2d237" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parse</definition>
+        <argsstring>()</argsstring>
+        <name>parse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1169" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1169" bodyend="1182"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a519f20b58429f11fb3c3839efcc7f484" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parse_charset</definition>
+        <argsstring>()</argsstring>
+        <name>parse_charset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1187" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1187" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a11913c53d09e73dc367062ee54abde20" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>read_tag</definition>
+        <argsstring>()</argsstring>
+        <name>read_tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1258" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1258" bodyend="1480"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a6d54ee34e0f121005da327b6fe0ab7e4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>parse_attr</definition>
+        <argsstring>($node, $name, &amp;$space)</argsstring>
+        <name>parse_attr</name>
+        <param>
+          <declname>$node</declname>
+        </param>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <type>&amp;</type>
+          <declname>$space</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1483" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1483" bodyend="1517"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a19edb141f64d5d085874f2e75e0aa333" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>link_nodes</definition>
+        <argsstring>(&amp;$node, $is_child)</argsstring>
+        <name>link_nodes</name>
+        <param>
+          <type>&amp;</type>
+          <declname>$node</declname>
+        </param>
+        <param>
+          <declname>$is_child</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1520" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1520" bodyend="1528"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a17ff0dd434a94d34972e3c90fbd0d545" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>as_text_node</definition>
+        <argsstring>($tag)</argsstring>
+        <name>as_text_node</name>
+        <param>
+          <declname>$tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1531" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1531" bodyend="1539"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a83de9b35df2e0857f2b0be5bff3e4960" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>skip</definition>
+        <argsstring>($chars)</argsstring>
+        <name>skip</name>
+        <param>
+          <declname>$chars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1541" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1541" bodyend="1545"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a48081dad72c2e828f05ae7420d95c820" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>copy_skip</definition>
+        <argsstring>($chars)</argsstring>
+        <name>copy_skip</name>
+        <param>
+          <declname>$chars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1547" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1547" bodyend="1555"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a607299237161af9369abc2d2605715d5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>copy_until</definition>
+        <argsstring>($chars)</argsstring>
+        <name>copy_until</name>
+        <param>
+          <declname>$chars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1557" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1557" bodyend="1564"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a0dcd73e05f3cee1eafe3ec6fa347c36b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>copy_until_char</definition>
+        <argsstring>($char)</argsstring>
+        <name>copy_until_char</name>
+        <param>
+          <declname>$char</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1566" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1566" bodyend="1582"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a2df9f8464f8daf439f9fa740ebdc0ede" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>copy_until_char_escape</definition>
+        <argsstring>($char)</argsstring>
+        <name>copy_until_char_escape</name>
+        <param>
+          <declname>$char</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1584" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1584" bodyend="1611"/>
+      </memberdef>
+      <memberdef kind="function" id="classsimple__html__dom_1a5bf6f05cd9b47a87912de85a6a556b6b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>remove_noise</definition>
+        <argsstring>($pattern, $remove_tag=false)</argsstring>
+        <name>remove_noise</name>
+        <param>
+          <declname>$pattern</declname>
+        </param>
+        <param>
+          <declname>$remove_tag</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="1615" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="1615" bodyend="1637"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Wamp/www/EVE API/parser/simple_html_dom.php" line="972" column="1" bodyfile="C:/Wamp/www/EVE API/parser/simple_html_dom.php" bodystart="971" bodyend="1719"/>
+    <listofallmembers>
+      <member refid="classsimple__html__dom_1ad6b00a32790b456a2f1668b2010a262e" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>$_charset</name></member>
+      <member refid="classsimple__html__dom_1a8f23f043ea2af2e56d97bebf17347f23" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>$_target_charset</name></member>
+      <member refid="classsimple__html__dom_1ac513b8dc3142f886d0609b7893fe6026" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$block_tags</name></member>
+      <member refid="classsimple__html__dom_1abc7c2ac0d93d22f71221e8b60512c860" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>$callback</name></member>
+      <member refid="classsimple__html__dom_1a128242871482e787498df34c33223f14" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$char</name></member>
+      <member refid="classsimple__html__dom_1a256b6d58b346bcd39d5bf5d49de70df2" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$cursor</name></member>
+      <member refid="classsimple__html__dom_1abd3661f931d84bc5e904cfd8e8e00833" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$default_br_text</name></member>
+      <member refid="classsimple__html__dom_1a0da61a0f0e8ff00f0ba83b363d7badda" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>$default_span_text</name></member>
+      <member refid="classsimple__html__dom_1afc5e9ce512cd97cf2e0e25bb20dcd39b" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$doc</name></member>
+      <member refid="classsimple__html__dom_1a8e20508789d34bc35e3b00ad58159d1c" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>$lowercase</name></member>
+      <member refid="classsimple__html__dom_1afc84f46342a660cca8589570197bc421" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>$nodes</name></member>
+      <member refid="classsimple__html__dom_1a2774f17621ab4d3b64411f86c88df407" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$noise</name></member>
+      <member refid="classsimple__html__dom_1a0aa8137deceff2940ae24f30bdb37379" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$optional_closing_tags</name></member>
+      <member refid="classsimple__html__dom_1ac22338e9abaeaf63325d69086f9ac644" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>$original_size</name></member>
+      <member refid="classsimple__html__dom_1a4e2313a4b35b72a06ac45fd38960f677" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$parent</name></member>
+      <member refid="classsimple__html__dom_1a5de51f0c80b3bb3b39a57b23f6b9ea9f" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$pos</name></member>
+      <member refid="classsimple__html__dom_1ab37f7c32f41c3c61ed940887453767f4" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>$root</name></member>
+      <member refid="classsimple__html__dom_1af36f0e679f54f7ee558dd5b96d4b8727" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$self_closing_tags</name></member>
+      <member refid="classsimple__html__dom_1af594986e4618a8d6a5d7566617f583c6" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>$size</name></member>
+      <member refid="classsimple__html__dom_1a0fb7a78d4e17bb7d156df4f5b79c4d30" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$token_attr</name></member>
+      <member refid="classsimple__html__dom_1ab7f68c12b4913a3685778154760151cd" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$token_blank</name></member>
+      <member refid="classsimple__html__dom_1a554179de2a5fb6395ce5ec3ff38f3169" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$token_equal</name></member>
+      <member refid="classsimple__html__dom_1a6e9298d28dc391aa70939916476fd4d1" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>$token_slash</name></member>
+      <member refid="classsimple__html__dom_1a867090eb38a7d76f8df0b46d22a5226a" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>__construct</name></member>
+      <member refid="classsimple__html__dom_1a421831a265621325e1fdd19aace0c758" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>__destruct</name></member>
+      <member refid="classsimple__html__dom_1abc8e9e31bb15c8a44c3210ec551407c8" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>__get</name></member>
+      <member refid="classsimple__html__dom_1a7516ca30af0db3cdbf9a7739b48ce91d" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>__toString</name></member>
+      <member refid="classsimple__html__dom_1a17ff0dd434a94d34972e3c90fbd0d545" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>as_text_node</name></member>
+      <member refid="classsimple__html__dom_1a543b9f022b4d71d19a8f055b3b87bb77" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>childNodes</name></member>
+      <member refid="classsimple__html__dom_1aa821bec12eaa7e0f649397c9675ff505" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>clear</name></member>
+      <member refid="classsimple__html__dom_1a48081dad72c2e828f05ae7420d95c820" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>copy_skip</name></member>
+      <member refid="classsimple__html__dom_1a607299237161af9369abc2d2605715d5" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>copy_until</name></member>
+      <member refid="classsimple__html__dom_1a0dcd73e05f3cee1eafe3ec6fa347c36b" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>copy_until_char</name></member>
+      <member refid="classsimple__html__dom_1a2df9f8464f8daf439f9fa740ebdc0ede" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>copy_until_char_escape</name></member>
+      <member refid="classsimple__html__dom_1a00ba25421a388987512a3859ff7c2ad9" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>createElement</name></member>
+      <member refid="classsimple__html__dom_1af9ee904e108e5c1956eec226881a9442" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>createTextNode</name></member>
+      <member refid="classsimple__html__dom_1ad2a305d3f759f9c444d5b2e686586598" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>dump</name></member>
+      <member refid="classsimple__html__dom_1afbf375e355aa32c25f7e389a04ddced0" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>find</name></member>
+      <member refid="classsimple__html__dom_1a2e7ff3e4db465652634f86004ccb83db" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>firstChild</name></member>
+      <member refid="classsimple__html__dom_1aec6ca41b9859728595ece521ca638e48" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>getElementById</name></member>
+      <member refid="classsimple__html__dom_1a73eb6caf89c86044a5ed0092484f375d" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>getElementByTagName</name></member>
+      <member refid="classsimple__html__dom_1a12433180a44804217a6089284c1e337a" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>getElementsById</name></member>
+      <member refid="classsimple__html__dom_1a3f59e79eb934dd4d4ef322f20d368849" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>getElementsByTagName</name></member>
+      <member refid="classsimple__html__dom_1aa290d153aa9b41988d2b4bfb23424241" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>lastChild</name></member>
+      <member refid="classsimple__html__dom_1a19edb141f64d5d085874f2e75e0aa333" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>link_nodes</name></member>
+      <member refid="classsimple__html__dom_1a240a32865f9d9ea1fa681917547a65a5" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>load</name></member>
+      <member refid="classsimple__html__dom_1acbf45344758b1a521534cc9cc8ebc5f5" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>load_file</name></member>
+      <member refid="classsimple__html__dom_1a4ab90327dc2941e600549ddf19e75bbd" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>loadFile</name></member>
+      <member refid="classsimple__html__dom_1a38d99acc70a1d8fd8f94455743b2d237" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>parse</name></member>
+      <member refid="classsimple__html__dom_1a6d54ee34e0f121005da327b6fe0ab7e4" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>parse_attr</name></member>
+      <member refid="classsimple__html__dom_1a519f20b58429f11fb3c3839efcc7f484" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>parse_charset</name></member>
+      <member refid="classsimple__html__dom_1a5c2e8093a84d64af2fdcbd9116a297d1" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>prepare</name></member>
+      <member refid="classsimple__html__dom_1a11913c53d09e73dc367062ee54abde20" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>read_tag</name></member>
+      <member refid="classsimple__html__dom_1a0af324763ae6d1a475455af727fc5037" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>remove_callback</name></member>
+      <member refid="classsimple__html__dom_1a5bf6f05cd9b47a87912de85a6a556b6b" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>remove_noise</name></member>
+      <member refid="classsimple__html__dom_1a65768af772cc55c11fc85d4d8697140e" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>restore_noise</name></member>
+      <member refid="classsimple__html__dom_1a6e80614bedc0513a210906c36f608fa8" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>save</name></member>
+      <member refid="classsimple__html__dom_1a7bcdfb5fa10cf704553ff32f5f5d693f" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>search_noise</name></member>
+      <member refid="classsimple__html__dom_1a40e8b7bf2a1b1acc56b82f9221fb9266" prot="public" virt="non-virtual"><scope>simple_html_dom</scope><name>set_callback</name></member>
+      <member refid="classsimple__html__dom_1a83de9b35df2e0857f2b0be5bff3e4960" prot="protected" virt="non-virtual"><scope>simple_html_dom</scope><name>skip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

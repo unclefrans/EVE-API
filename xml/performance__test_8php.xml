@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="performance__test_8php" kind="file">
+    <compoundname>performance_test.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="performance__test_8php_1a3c74ea9d2348c9aba28d36e692bef2d2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$all</definition>
+        <argsstring></argsstring>
+        <name>$all</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" line="7" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="performance__test_8php_1a56ba76399d12529c48ecea581ecd08cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$min</definition>
+        <argsstring></argsstring>
+        <name>$min</name>
+        <initializer>= 10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" line="8" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="performance__test_8php_1a9fb747ef5633c244639185a7fe54f6b0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$max</definition>
+        <argsstring></argsstring>
+        <name>$max</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" line="9" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="performance__test_8php_1af789423037bbc89dc7c850e761177570" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$count</definition>
+        <argsstring></argsstring>
+        <name>$count</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" line="10" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="performance__test_8php_1a7542d95618011800c61773127fa625cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$str</definition>
+        <argsstring></argsstring>
+        <name>$str</name>
+        <initializer>= file_get_contents(&apos;./html/google.htm&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" line="12" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="performance__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$html</definition>
+        <argsstring></argsstring>
+        <name>$html</name>
+        <initializer>= new <ref refid="classsimple__html__dom" kindref="compound">simple_html_dom</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" line="13" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="performance__test_8php_1a065fe5fb0983b8ad1da651824f539ccd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>for</definition>
+        <argsstring>($i=0;$i&lt;$count;++$i)</argsstring>
+        <name>for</name>
+        <initializer>= &lt;&lt;&lt;HTML
+&lt;img class=&quot;class0&quot; id=&quot;id0&quot; src=&quot;src0&quot;&gt;
+HTML</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" line="15" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/performance_test.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Rev:<sp/>133<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">error_reporting(E_ALL);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">include_once(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="performance__test_8php_1a3c74ea9d2348c9aba28d36e692bef2d2" kindref="member">$all</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="performance__test_8php_1a56ba76399d12529c48ecea581ecd08cf" kindref="member">$min</ref><sp/>=<sp/>10000;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="performance__test_8php_1a9fb747ef5633c244639185a7fe54f6b0" kindref="member">$max</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="performance__test_8php_1af789423037bbc89dc7c850e761177570" kindref="member">$count</ref><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><ref refid="performance__test_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>file_get_contents(</highlight><highlight class="stringliteral">&apos;./html/google.htm&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="performance__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsimple__html__dom" kindref="compound">simple_html_dom</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>($i=0;<sp/>$i&lt;<ref refid="performance__test_8php_1af789423037bbc89dc7c850e761177570" kindref="member">$count</ref>;<sp/>++$i)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="slick__test_8php_1a50a00e7de77365e00b117e73aa82fb9b" kindref="member">$start</ref><sp/>=<sp/>microtime();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="performance__test_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load(<ref refid="performance__test_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>list($eu,<sp/><ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>)<sp/>=<sp/>explode(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,<sp/>microtime());</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>list($bu,<sp/>$bs)<sp/>=<sp/>explode(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,<sp/><ref refid="slick__test_8php_1a50a00e7de77365e00b117e73aa82fb9b" kindref="member">$start</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>$diff<sp/>=<sp/>((float)$eu+(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)<ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>-(float)$bu-(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)$bs)*1000;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="jquery_8js_1aa88e7f65e0de881a2ea6c4c06f823f1a" kindref="member">if</ref><sp/>($diff&gt;<ref refid="performance__test_8php_1a9fb747ef5633c244639185a7fe54f6b0" kindref="member">$max</ref>)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="performance__test_8php_1a9fb747ef5633c244639185a7fe54f6b0" kindref="member">$max</ref><sp/>=<sp/>$diff;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="jquery_8js_1aa88e7f65e0de881a2ea6c4c06f823f1a" kindref="member">if</ref><sp/>($diff&lt;<ref refid="performance__test_8php_1a56ba76399d12529c48ecea581ecd08cf" kindref="member">$min</ref>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="performance__test_8php_1a56ba76399d12529c48ecea581ecd08cf" kindref="member">$min</ref><sp/>=<sp/>$diff;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="performance__test_8php_1a3c74ea9d2348c9aba28d36e692bef2d2" kindref="member">$all</ref><sp/>+=<sp/>$diff;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>sprintf(&apos;(%.1f)&apos;,<sp/>$diff).&apos;&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">echo<sp/>&apos;&lt;br&gt;-------------------------&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">echo<sp/>&apos;min:<sp/>&apos;<sp/>.<sp/><ref refid="performance__test_8php_1a56ba76399d12529c48ecea581ecd08cf" kindref="member">$min</ref><sp/>.<sp/>&apos;&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">echo<sp/>&apos;max:<sp/>&apos;<sp/>.<sp/><ref refid="performance__test_8php_1a9fb747ef5633c244639185a7fe54f6b0" kindref="member">$max</ref><sp/>.<sp/>&apos;&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">echo<sp/>&apos;&lt;br&gt;avg:<sp/>&apos;<sp/>.<sp/><ref refid="performance__test_8php_1a3c74ea9d2348c9aba28d36e692bef2d2" kindref="member">$all</ref>/$count<sp/>.<sp/>&apos;&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/testcase/performance_test.php"/>
+  </compounddef>
+</doxygen>

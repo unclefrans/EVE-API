@@ -1,0 +1,45 @@
+\hypertarget{reader_2element__testcase_8php}{\section{parser/testcase/reader/element\+\_\+testcase.php File Reference}
+\label{reader_2element__testcase_8php}\index{parser/testcase/reader/element\+\_\+testcase.\+php@{parser/testcase/reader/element\+\_\+testcase.\+php}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{reader_2element__testcase_8php_a46127a794280dd592812c25b62af34b0}{\$dom} = new \hyperlink{classsimple__html__dom}{simple\+\_\+html\+\_\+dom}
+\item 
+\hyperlink{reader_2element__testcase_8php_a7542d95618011800c61773127fa625cf}{\$str}
+\item 
+\hyperlink{reader_2element__testcase_8php_a3b7fe8df18180e15ae677b41b1507990}{\$es} = \$dom-\/$>$find('div')
+\item 
+\hyperlink{reader_2element__testcase_8php_ab74076a9b7e1d23d12b9e8d65e60315a}{\$e} = \$dom-\/$>$find('select\mbox{[}\hyperlink{dom__testcase_8php_a7e76f3957f225b9a14d6fab0a55392ce}{name}=something\mbox{]}', 0)
+\item 
+\$e \hyperlink{reader_2element__testcase_8php_ad9729d59b61f6fd5102cd7af27b641e6}{innertext} = ''
+\item 
+\hyperlink{reader_2element__testcase_8php_af789423037bbc89dc7c850e761177570}{\$count} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{reader_2element__testcase_8php_af789423037bbc89dc7c850e761177570}{\index{reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}!\$count@{\$count}}
+\index{\$count@{\$count}!reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}}
+\subsubsection[{\$count}]{\setlength{\rightskip}{0pt plus 5cm}\$count = 0}}\label{reader_2element__testcase_8php_af789423037bbc89dc7c850e761177570}
+\hypertarget{reader_2element__testcase_8php_a46127a794280dd592812c25b62af34b0}{\index{reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}!\$dom@{\$dom}}
+\index{\$dom@{\$dom}!reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}}
+\subsubsection[{\$dom}]{\setlength{\rightskip}{0pt plus 5cm}\$dom = new {\bf simple\+\_\+html\+\_\+dom}}}\label{reader_2element__testcase_8php_a46127a794280dd592812c25b62af34b0}
+\hypertarget{reader_2element__testcase_8php_ab74076a9b7e1d23d12b9e8d65e60315a}{\index{reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}!\$e@{\$e}}
+\index{\$e@{\$e}!reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}}
+\subsubsection[{\$e}]{\setlength{\rightskip}{0pt plus 5cm}\$e = \$dom-\/$>$find('select\mbox{[}{\bf name}=something\mbox{]}', 0)}}\label{reader_2element__testcase_8php_ab74076a9b7e1d23d12b9e8d65e60315a}
+\hypertarget{reader_2element__testcase_8php_a3b7fe8df18180e15ae677b41b1507990}{\index{reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}!\$es@{\$es}}
+\index{\$es@{\$es}!reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}}
+\subsubsection[{\$es}]{\setlength{\rightskip}{0pt plus 5cm}{\bf foreach} (\$dom-\/$>$find('p') as \$p) \$es = \$dom-\/$>$find('div')}}\label{reader_2element__testcase_8php_a3b7fe8df18180e15ae677b41b1507990}
+\hypertarget{reader_2element__testcase_8php_a7542d95618011800c61773127fa625cf}{\index{reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}!\$str@{\$str}}
+\index{\$str@{\$str}!reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}}
+\subsubsection[{\$str}]{\setlength{\rightskip}{0pt plus 5cm}\$str}}\label{reader_2element__testcase_8php_a7542d95618011800c61773127fa625cf}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= <<<HTML
+<div onclick=\textcolor{stringliteral}{"bar('aa')"}>\hyperlink{strip__testcase_8php_aa901575d6c772d2340f7e16cf7028985}{foo}</div>
+HTML
+\end{DoxyCode}
+\hypertarget{reader_2element__testcase_8php_ad9729d59b61f6fd5102cd7af27b641e6}{\index{reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}!innertext@{innertext}}
+\index{innertext@{innertext}!reader/element\+\_\+testcase.\+php@{reader/element\+\_\+testcase.\+php}}
+\subsubsection[{innertext}]{\setlength{\rightskip}{0pt plus 5cm}\$es \mbox{[}0\mbox{]} innertext = ''}}\label{reader_2element__testcase_8php_ad9729d59b61f6fd5102cd7af27b641e6}

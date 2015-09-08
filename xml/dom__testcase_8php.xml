@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dom__testcase_8php" kind="file">
+    <compoundname>dom_testcase.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$html</definition>
+        <argsstring></argsstring>
+        <name>$html</name>
+        <initializer>= new <ref refid="classsimple__html__dom" kindref="compound">simple_html_dom</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="7" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$e</definition>
+        <argsstring></argsstring>
+        <name>$e</name>
+        <initializer>= $html-&gt;root</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="12" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dom__testcase_8php_1a7542d95618011800c61773127fa625cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$str</definition>
+        <argsstring></argsstring>
+        <name>$str</name>
+        <initializer>= &apos;&lt;div <ref refid="invalid__testcase_8php_1af94d69fa7897fa25e80204500b8586eb" kindref="member">id</ref>=&quot;div1&quot;&gt;&lt;/div&gt;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="18" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dom__testcase_8php_1af6e35bb61d58e268ba65118e7131d906" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>foreach ($html-&gt;find(&apos;input[type=checkbox]&apos;) as $checkbox) $counter</definition>
+        <argsstring></argsstring>
+        <name>$counter</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="117" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" prot="public" static="no" mutable="no">
+        <type><ref refid="submit_8php_1ac504d4a137641e880f0b9693d36d2e16" kindref="member">foreach</ref>($html-&gt;find(&apos;input[<ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=checkbox]&apos;) as $checkbox)</type>
+        <definition>$es</definition>
+        <argsstring></argsstring>
+        <name>$es</name>
+        <initializer>= $html-&gt;find(&apos;input[<ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=checkbox]&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="133" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dom__testcase_8php_1a4f94e2717068dd53cc425872ce111b17" prot="public" static="no" mutable="no">
+        <type>$es[1]</type>
+        <definition>$e checked</definition>
+        <argsstring></argsstring>
+        <name>checked</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="134" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dom__testcase_8php_1a7e76f3957f225b9a14d6fab0a55392ce" prot="public" static="no" mutable="no">
+        <type>$e</type>
+        <definition>$e name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="151" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" prot="public" static="no" mutable="no">
+        <type>$e</type>
+        <definition>$e type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="153" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" prot="public" static="no" mutable="no">
+        <type>$e</type>
+        <definition>$e value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="169" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dom__testcase_8php_1a366d002f1f686d0884af91b64e877eb9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ul</definition>
+        <argsstring></argsstring>
+        <name>$ul</name>
+        <initializer>= $html-&gt;find(&apos;ul&apos;, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" line="360" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Rev:<sp/>180<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>setup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">error_reporting(E_ALL);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">require_once(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsimple__html__dom" kindref="compound">simple_html_dom</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DOM<sp/>tree<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load(</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref><sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;root;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;first_child()==null);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;last_child()==null);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;next_sibling()==null);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;prev_sibling()==null);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="dom__testcase_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&lt;div<sp/>id=&quot;div1&quot;&gt;&lt;/div&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref><sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;root;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;first_child()-&gt;id==</highlight><highlight class="stringliteral">&apos;div1&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;last_child()-&gt;id==</highlight><highlight class="stringliteral">&apos;div1&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;next_sibling()==null);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;prev_sibling()==null);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;plaintext==</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;innertext==</highlight><highlight class="stringliteral">&apos;&lt;div<sp/>id=&quot;div1&quot;&gt;&lt;/div&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;outertext==$str);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div10&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div11&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div12&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref><sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div#div1&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">assert(isset(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;id)==</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">assert(isset(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;_not_exist)==</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;first_child()-&gt;id==</highlight><highlight class="stringliteral">&apos;div10&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;last_child()-&gt;id==</highlight><highlight class="stringliteral">&apos;div12&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;next_sibling()==null);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;prev_sibling()==null);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div0&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div00&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div10&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div11&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div12&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div2&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref><sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div#div1&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;first_child()-&gt;id==</highlight><highlight class="stringliteral">&apos;div10&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;last_child()-&gt;id==</highlight><highlight class="stringliteral">&apos;div12&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;next_sibling()-&gt;id==</highlight><highlight class="stringliteral">&apos;div2&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref>-&gt;prev_sibling()-&gt;id==</highlight><highlight class="stringliteral">&apos;div0&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><ref refid="dom__testcase_8php_1ab74076a9b7e1d23d12b9e8d65e60315a" kindref="member">$e</ref><sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div#div2&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">assert($e-&gt;first_child()==null);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">assert($e-&gt;last_child()==null);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div#div0<sp/>div#div00&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">assert($e-&gt;first_child()==null);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">assert($e-&gt;last_child()==null);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">assert($e-&gt;next_sibling()==null);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">assert($e-&gt;prev_sibling()==null);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div0&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div00&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div10&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div11&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div110&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div111&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1110&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1111&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1112&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div112&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div12&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div2&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&quot;#div1&quot;</highlight><highlight class="normal">,<sp/>0)-&gt;id==</highlight><highlight class="stringliteral">&apos;div1&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&quot;#div1&quot;</highlight><highlight class="normal">,<sp/>0)-&gt;children(0)-&gt;id==</highlight><highlight class="stringliteral">&apos;div10&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&quot;#div1&quot;</highlight><highlight class="normal">,<sp/>0)-&gt;children(1)-&gt;children(1)-&gt;id==</highlight><highlight class="stringliteral">&apos;div111&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&quot;#div1&quot;</highlight><highlight class="normal">,<sp/>0)-&gt;children(1)-&gt;children(1)-&gt;children(2)-&gt;id==</highlight><highlight class="stringliteral">&apos;div1112&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">//<sp/>no<sp/>value<sp/>attr<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">&lt;form<sp/><ref refid="dom__testcase_8php_1a7e76f3957f225b9a14d6fab0a55392ce" kindref="member">name</ref>=</highlight><highlight class="stringliteral">&quot;form1&quot;</highlight><highlight class="normal"><sp/>method=</highlight><highlight class="stringliteral">&quot;post&quot;</highlight><highlight class="normal"><sp/>action=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;input<sp/><ref refid="dom__testcase_8php_1a2dac418d51f3729b0a56d68ba81f17b1" kindref="member">type</ref>=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox0&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1a4f94e2717068dd53cc425872ce111b17" kindref="member">checked</ref><sp/><ref refid="dom__testcase_8php_1aa1e367627f46ba8a185ec02e58272f80" kindref="member">value</ref>=</highlight><highlight class="stringliteral">&quot;checkbox0&quot;</highlight><highlight class="normal">&gt;aaa&lt;br&gt;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox1&quot;</highlight><highlight class="normal"><sp/>value=</highlight><highlight class="stringliteral">&quot;checkbox1&quot;</highlight><highlight class="normal">&gt;bbb&lt;br&gt;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox2&quot;</highlight><highlight class="normal"><sp/>value=</highlight><highlight class="stringliteral">&quot;checkbox2&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1a4f94e2717068dd53cc425872ce111b17" kindref="member">checked</ref>&gt;ccc&lt;br&gt;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">&lt;/form&gt;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><ref refid="dom__testcase_8php_1af6e35bb61d58e268ba65118e7131d906" kindref="member">$counter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input[type=checkbox]&apos;</highlight><highlight class="normal">)<sp/>as<sp/>$checkbox)<sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(isset($checkbox-&gt;checked))<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert($checkbox-&gt;value==</highlight><highlight class="stringliteral">&quot;checkbox$counter&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dom__testcase_8php_1af6e35bb61d58e268ba65118e7131d906" kindref="member">$counter</ref><sp/>+=<sp/>2;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><ref refid="dom__testcase_8php_1af6e35bb61d58e268ba65118e7131d906" kindref="member">$counter</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input[type=checkbox]&apos;</highlight><highlight class="normal">)<sp/>as<sp/>$checkbox)<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>($checkbox-&gt;checked)<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert($checkbox-&gt;value==</highlight><highlight class="stringliteral">&quot;checkbox$counter&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dom__testcase_8php_1af6e35bb61d58e268ba65118e7131d906" kindref="member">$counter</ref><sp/>+=<sp/>2;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref><sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input[type=checkbox]&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>[1]-&gt;checked<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>[1]-&gt;outertext==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;<sp/>name=&quot;checkbox1&quot;<sp/>value=&quot;checkbox1&quot;<sp/>checked&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>[0]-&gt;checked<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>[0]==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;<sp/>name=&quot;checkbox0&quot;<sp/>value=&quot;checkbox0&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>[0]-&gt;checked<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a388cbda27103d2baee3997798d1f2744" kindref="member">$es</ref>[0]-&gt;outertext==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;<sp/>name=&quot;checkbox0&quot;<sp/>checked<sp/>value=&quot;checkbox0&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment">//<sp/>remove<sp/>attr<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox0&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">&lt;input<sp/>type<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;checkbox1&apos;</highlight><highlight class="normal"><sp/>value<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;checkbox1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;[name=checkbox0]&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">$e-&gt;name<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">$e-&gt;type<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;[name=checkbox0]&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">$e-&gt;name<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">$e-&gt;type<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;[name=checkbox1]&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">$e-&gt;value<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&quot;&lt;input<sp/>type<sp/>=<sp/>\&quot;checkbox\&quot;<sp/>name<sp/>=<sp/>&apos;checkbox1&apos;&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">$e-&gt;type<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&quot;&lt;input<sp/>name<sp/>=<sp/>&apos;checkbox1&apos;&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">$e-&gt;name<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;[name=checkbox1]&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">$e-&gt;type<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&quot;&lt;input<sp/>name<sp/>=<sp/>&apos;checkbox1&apos;<sp/>value<sp/>=<sp/>\&quot;checkbox1\&quot;&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">$e-&gt;name<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>value<sp/>=<sp/>&quot;checkbox1&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">$e-&gt;value<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="comment">//<sp/>remove<sp/>no<sp/>value<sp/>attr<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1a4f94e2717068dd53cc425872ce111b17" kindref="member">checked</ref><sp/>name=</highlight><highlight class="stringliteral">&apos;checkbox0&apos;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&apos;checkbox1&apos;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1a4f94e2717068dd53cc425872ce111b17" kindref="member">checked</ref>&gt;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;[name=checkbox1]&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">$e-&gt;type<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&quot;&lt;input<sp/>name=&apos;checkbox1&apos;<sp/>checked&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal">$e-&gt;name<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&quot;&lt;input<sp/>checked&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">$e-&gt;checked<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&quot;&lt;input&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;[name=checkbox0]&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">$e-&gt;type<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&quot;&lt;input<sp/>checked<sp/>name=&apos;checkbox0&apos;&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">$e-&gt;name<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>checked&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">$e-&gt;checked<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;[name=checkbox0]&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">$e-&gt;checked<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&quot;&lt;input<sp/>type=\&quot;checkbox\&quot;<sp/>name=&apos;checkbox0&apos;&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal">$e-&gt;name<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">$e-&gt;type<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&quot;&lt;input&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">//<sp/>extract<sp/>text</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="226"><highlight class="normal">&lt;b&gt;okok&lt;/b&gt;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;plaintext==</highlight><highlight class="stringliteral">&apos;okok&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">&lt;div&gt;&lt;b&gt;okok&lt;/b&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;plaintext==</highlight><highlight class="stringliteral">&apos;okok&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="240"><highlight class="normal">&lt;div&gt;&lt;b&gt;okok&lt;/b&gt;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;plaintext==</highlight><highlight class="stringliteral">&apos;okok&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="247"><highlight class="normal">&lt;b&gt;okok&lt;/b&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;plaintext==</highlight><highlight class="stringliteral">&apos;okok&lt;/div&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="comment">//<sp/>old<sp/>fashion<sp/>camel<sp/>naming<sp/>conventions<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="257"><highlight class="normal">&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/>value=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1a4f94e2717068dd53cc425872ce111b17" kindref="member">checked</ref>&gt;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal">&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;checkbox1&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox1&quot;</highlight><highlight class="normal"><sp/>value=</highlight><highlight class="stringliteral">&quot;checkbox1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">&lt;input<sp/>type=</highlight><highlight class="stringliteral">&quot;checkbox&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;checkbox2&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;checkbox2&quot;</highlight><highlight class="normal"><sp/>value=</highlight><highlight class="stringliteral">&quot;checkbox2&quot;</highlight><highlight class="normal"><sp/><ref refid="dom__testcase_8php_1a4f94e2717068dd53cc425872ce111b17" kindref="member">checked</ref>&gt;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementByTagName(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">)-&gt;hasAttribute(</highlight><highlight class="stringliteral">&apos;checked&apos;</highlight><highlight class="normal">)==</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementsByTagName(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">,<sp/>1)-&gt;hasAttribute(</highlight><highlight class="stringliteral">&apos;checked&apos;</highlight><highlight class="normal">)==</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementsByTagName(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">,<sp/>1)-&gt;hasAttribute(</highlight><highlight class="stringliteral">&apos;not_exist&apos;</highlight><highlight class="normal">)==</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;value==<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementByTagName(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;value&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">,<sp/>1)-&gt;value==<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementsByTagName(</highlight><highlight class="stringliteral">&apos;input&apos;</highlight><highlight class="normal">,<sp/>1)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;value&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;#checkbox1&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;value==<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementById(</highlight><highlight class="stringliteral">&apos;checkbox1&apos;</highlight><highlight class="normal">)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;value&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;#checkbox2&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;value==<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementsById(</highlight><highlight class="stringliteral">&apos;checkbox2&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;value&apos;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;[name=checkbox]&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">assert($e-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;value&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;checkbox&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal">assert($e-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;checked&apos;</highlight><highlight class="normal">)==</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal">assert($e-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;not_exist&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal">$e-&gt;setAttribute(</highlight><highlight class="stringliteral">&apos;value&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;okok&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;<sp/>id=&quot;checkbox&quot;<sp/>name=&quot;checkbox&quot;<sp/>value=&quot;okok&quot;<sp/>checked&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal">$e-&gt;setAttribute(</highlight><highlight class="stringliteral">&apos;checked&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;<sp/>id=&quot;checkbox&quot;<sp/>name=&quot;checkbox&quot;<sp/>value=&quot;okok&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal">$e-&gt;setAttribute(</highlight><highlight class="stringliteral">&apos;checked&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;<sp/>id=&quot;checkbox&quot;<sp/>name=&quot;checkbox&quot;<sp/>value=&quot;okok&quot;<sp/>checked&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal">$e-&gt;removeAttribute(</highlight><highlight class="stringliteral">&apos;value&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;<sp/>id=&quot;checkbox&quot;<sp/>name=&quot;checkbox&quot;<sp/>checked&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal">$e-&gt;removeAttribute(</highlight><highlight class="stringliteral">&apos;checked&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal">assert($e==</highlight><highlight class="stringliteral">&apos;&lt;input<sp/>type=&quot;checkbox&quot;<sp/>id=&quot;checkbox&quot;<sp/>name=&quot;checkbox&quot;&gt;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="296"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div10&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div11&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div12&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal">$e<sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div#div1&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal">assert($e-&gt;firstChild()-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;div10&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal">assert($e-&gt;lastChild()-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;div12&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal">assert($e-&gt;nextSibling()==null);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal">assert($e-&gt;previousSibling()==null);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="313"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div0&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div00&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div10&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div11&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div110&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div111&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1110&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1111&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div1112&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div112&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div12&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;div2&quot;</highlight><highlight class="normal">&gt;&lt;/div&gt;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementById(</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">)-&gt;hasAttribute(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">)==</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementById(</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">)-&gt;hasAttribute(</highlight><highlight class="stringliteral">&apos;not_exist&apos;</highlight><highlight class="normal">)==</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementById(</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;div1&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementById(</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">)-&gt;childNodes(0)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;div10&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementById(</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">)-&gt;childNodes(1)-&gt;childNodes(1)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;div111&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementById(</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">)-&gt;childNodes(1)-&gt;childNodes(1)-&gt;childNodes(2)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;div1112&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementsById(</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">,<sp/>0)-&gt;childNodes(1)-&gt;id==</highlight><highlight class="stringliteral">&apos;div11&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementsById(</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">,<sp/>0)-&gt;childNodes(1)-&gt;childNodes(1)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;div111&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;getElementsById(</highlight><highlight class="stringliteral">&quot;div1&quot;</highlight><highlight class="normal">,<sp/>0)-&gt;childNodes(1)-&gt;childNodes(1)-&gt;childNodes(1)-&gt;getAttribute(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">)==</highlight><highlight class="stringliteral">&apos;div1111&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="348"><highlight class="normal">&lt;ul<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;menublock&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/li&gt;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;ul&gt;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;http://www.cyberciti.biz/tips/pollsarchive&quot;</highlight><highlight class="normal">&gt;Polls<sp/>Archive&lt;/a&gt;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/li&gt;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/ul&gt;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/li&gt;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal">&lt;/ul&gt;</highlight></codeline>
+<codeline lineno="357"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><ref refid="dom__testcase_8php_1a366d002f1f686d0884af91b64e877eb9" kindref="member">$ul</ref><sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;ul&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a366d002f1f686d0884af91b64e877eb9" kindref="member">$ul</ref>-&gt;first_child()-&gt;tag===</highlight><highlight class="stringliteral">&apos;ul&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal">$str<sp/>=<sp/>&lt;&lt;&lt;HTML</highlight></codeline>
+<codeline lineno="365"><highlight class="normal">&lt;ul&gt;</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;li&gt;Item<sp/>1<sp/></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;ul&gt;</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;Sub<sp/>Item<sp/>1<sp/>&lt;/li&gt;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;li&gt;Sub<sp/>Item<sp/>2<sp/>&lt;/li&gt;</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/ul&gt;</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/li&gt;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;li&gt;Item<sp/>2<sp/>&lt;/li&gt;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal">&lt;/ul&gt;</highlight></codeline>
+<codeline lineno="374"><highlight class="normal">HTML;</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;load($str);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>==$str);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><ref refid="dom__testcase_8php_1a366d002f1f686d0884af91b64e877eb9" kindref="member">$ul</ref><sp/>=<sp/><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;ul&apos;</highlight><highlight class="normal">,<sp/>0);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a366d002f1f686d0884af91b64e877eb9" kindref="member">$ul</ref>-&gt;first_child()-&gt;tag===</highlight><highlight class="stringliteral">&apos;li&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="381"><highlight class="normal">assert(<ref refid="dom__testcase_8php_1a366d002f1f686d0884af91b64e877eb9" kindref="member">$ul</ref>-&gt;first_child()-&gt;next_sibling()-&gt;tag===</highlight><highlight class="stringliteral">&apos;li&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tear<sp/>down</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;clear();</highlight></codeline>
+<codeline lineno="385"><highlight class="normal">unset(<ref refid="dom__testcase_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>);</highlight></codeline>
+<codeline lineno="386"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/testcase/dom_testcase.php"/>
+  </compounddef>
+</doxygen>

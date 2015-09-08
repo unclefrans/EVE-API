@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_42ad5b293292aa9e5b49317eef64edf7" kind="dir">
+    <compoundname>parser/testcase/reader</compoundname>
+    <innerfile refid="reader_2all__test_8php">all_test.php</innerfile>
+    <innerfile refid="reader_2element__testcase_8php">element_testcase.php</innerfile>
+    <innerfile refid="reader_2memory__test_8php">memory_test.php</innerfile>
+    <innerfile refid="reader_2performance__test_8php">performance_test.php</innerfile>
+    <innerfile refid="reader_2selector__testcase_8php">selector_testcase.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Wamp/www/EVE API/parser/testcase/reader/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="memory__test_8php" kind="file">
+    <compoundname>memory_test.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="memory__test_8php_1a0722441477f957078ee2437054556cbc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$filename</definition>
+        <argsstring></argsstring>
+        <name>$filename</name>
+        <initializer>= &apos;./html/google.htm&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" line="15" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$init_size</definition>
+        <argsstring></argsstring>
+        <name>$init_size</name>
+        <initializer>= number_format(memory_get_usage(), 0, &apos;.&apos;, &apos;,&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" line="103" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="memory__test_8php_1a8bfd033724dbbf7faa2f0e3cd60027ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dump_memory</definition>
+        <argsstring>($init_size)</argsstring>
+        <name>dump_memory</name>
+        <param>
+          <declname>$init_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" line="7" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" bodystart="7" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="memory__test_8php_1a3545970652bbb90c9abaf3db57618744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>test_load_file_memory</definition>
+        <argsstring>($filename, $init_size)</argsstring>
+        <name>test_load_file_memory</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <param>
+          <declname>$init_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" line="20" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" bodystart="20" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="memory__test_8php_1af17e18362ccd7ff015e9f01f0598efac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>test_multi_str_get_html</definition>
+        <argsstring>($filename, $init_size)</argsstring>
+        <name>test_multi_str_get_html</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <param>
+          <declname>$init_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" line="37" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" bodystart="37" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="memory__test_8php_1a03fc6318721e88e5a65a22339934d91c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>test_multi_file_get_html</definition>
+        <argsstring>($filename, $init_size)</argsstring>
+        <name>test_multi_file_get_html</name>
+        <param>
+          <declname>$filename</declname>
+        </param>
+        <param>
+          <declname>$init_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" line="57" column="1" bodyfile="C:/Wamp/www/EVE API/parser/testcase/memory_test.php" bodystart="57" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>$Rev:<sp/>179<sp/>$</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">error_reporting(E_ALL);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">include_once(</highlight><highlight class="stringliteral">&apos;../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="memory__test_8php_1a8bfd033724dbbf7faa2f0e3cd60027ec" kindref="member">dump_memory</ref>(<ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>$peak<sp/>=<sp/>number_format(memory_get_peak_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>$curr<sp/>=<sp/>number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>$diff<sp/>=<sp/>$curr<sp/>-<sp/><ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;peak:<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/><sp/>$peak<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;<sp/>kb,<sp/>end:<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/>$curr<sp/>.<sp/></highlight><highlight class="stringliteral">&apos;<sp/>kb,<sp/>add:<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/>$diff<sp/>.<sp/></highlight><highlight class="stringliteral">&quot;<sp/>kb&lt;br&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&apos;./html/google.htm&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//$filename<sp/>=<sp/>&apos;test.htm&apos;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>test_load_file_memory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="memory__test_8php_1a3545970652bbb90c9abaf3db57618744" kindref="member">test_load_file_memory</ref>(<ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref>,<sp/><ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;[load<sp/>file]<sp/>init<sp/>memory:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;--------------------------------------------------------------------&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>flush();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">($i=0;<sp/>$i&lt;3;<sp/>++$i)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="reader_2memory__test_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>file_get_contents(<ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="memory__test_8php_1a8bfd033724dbbf7faa2f0e3cd60027ec" kindref="member">dump_memory</ref>(<ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unset(<ref refid="reader_2memory__test_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;after<sp/>loop:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage(),<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;--------------------------------------------------------------------&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>flush();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>test_multi_objects_str_get_html</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="memory__test_8php_1af17e18362ccd7ff015e9f01f0598efac" kindref="member">test_multi_str_get_html</ref>(<ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref>,<sp/><ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>global<sp/>$__g_node_mgr;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="reader_2memory__test_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref><sp/>=<sp/>file_get_contents(<ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;[str_get_html]<sp/>init<sp/>memory:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;--------------------------------------------------------------------&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>flush();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">($i=0;<sp/>$i&lt;3;<sp/>++$i)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1a2a9c7626f0cb0a56eb81709124a08922" kindref="member">str_get_html</ref>(<ref refid="reader_2memory__test_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="memory__test_8php_1a8bfd033724dbbf7faa2f0e3cd60027ec" kindref="member">dump_memory</ref>(<ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flush();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;after<sp/>loop:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage(),<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;--------------------------------------------------------------------&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>flush();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>unset(<ref refid="reader_2memory__test_8php_1a7542d95618011800c61773127fa625cf" kindref="member">$str</ref>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>test_multi_file_get_html</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="memory__test_8php_1a03fc6318721e88e5a65a22339934d91c" kindref="member">test_multi_file_get_html</ref>(<ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref>,<sp/><ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;[file_get_html]<sp/>init<sp/>memory:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;--------------------------------------------------------------------&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>flush();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">($i=0;<sp/>$i&lt;3;<sp/>++$i)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(<ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//$html-&gt;clear();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unset(<ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="memory__test_8php_1a8bfd033724dbbf7faa2f0e3cd60027ec" kindref="member">dump_memory</ref>(<ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flush();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;after<sp/>loop:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage(),<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;--------------------------------------------------------------------&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>flush();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="73"><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="74"><highlight class="comment">//<sp/>test_multi_objects_clear_memory</highlight></codeline>
+<codeline lineno="75"><highlight class="comment">function<sp/>test_multi_objects_file_get_html_clear_memory($filename)<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="comment">echo<sp/>&apos;&lt;br&gt;&lt;br&gt;[one<sp/>object]&lt;br&gt;init<sp/>memory:<sp/>&apos;.number_format(memory_get_usage(),<sp/>0,<sp/>&apos;.&apos;,<sp/>&apos;,&apos;).&apos;&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="77"><highlight class="comment">echo<sp/>&apos;------------------------------------------&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="78"><highlight class="comment">flush();</highlight></codeline>
+<codeline lineno="79"><highlight class="comment">$html<sp/>=<sp/>new<sp/>simple_html_dom;</highlight></codeline>
+<codeline lineno="80"><highlight class="comment">for($i=0;<sp/>$i&lt;3;<sp/>++$i)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/>$html-&gt;load_file($filename);</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/>$html-&gt;clear();</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/>dump_memory();</highlight></codeline>
+<codeline lineno="84"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="85"><highlight class="comment">unset($dom);</highlight></codeline>
+<codeline lineno="86"><highlight class="comment">echo<sp/>&apos;final:<sp/>&apos;.number_format(memory_get_usage(),<sp/>0,<sp/>&apos;.&apos;,<sp/>&apos;,&apos;).&apos;&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="87"><highlight class="comment">flush();</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"></highlight></codeline>
+<codeline lineno="89"><highlight class="comment"></highlight></codeline>
+<codeline lineno="90"><highlight class="comment">echo<sp/>&apos;&lt;br&gt;&lt;br&gt;[multi<sp/>objects<sp/>without<sp/>clear<sp/>memory]&lt;br&gt;init<sp/>memory:<sp/>&apos;.number_format(memory_get_usage(),<sp/>0,<sp/>&apos;.&apos;,<sp/>&apos;,&apos;).&apos;&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="91"><highlight class="comment">echo<sp/>&apos;------------------------------------------&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="92"><highlight class="comment">flush();</highlight></codeline>
+<codeline lineno="93"><highlight class="comment">for($i=0;<sp/>$i&lt;3;<sp/>++$i)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/>$html<sp/>=<sp/>file_get_html($filename);</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/>dump_memory();</highlight></codeline>
+<codeline lineno="96"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="97"><highlight class="comment">echo<sp/>&apos;final:<sp/>&apos;.number_format(memory_get_usage(),<sp/>0,<sp/>&apos;.&apos;,<sp/>&apos;,&apos;).&apos;&lt;br&gt;&apos;;</highlight></codeline>
+<codeline lineno="98"><highlight class="comment">flush();</highlight></codeline>
+<codeline lineno="99"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">//<sp/>begin<sp/>test</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref><sp/>=<sp/>number_format(memory_get_usage(),<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;init<sp/>&apos;</highlight><highlight class="normal"><sp/>.<sp/><ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref><sp/>.<sp/></highlight><highlight class="stringliteral">&quot;<sp/>bytes&lt;br&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">flush();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;br&gt;before<sp/>function:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><ref refid="memory__test_8php_1a3545970652bbb90c9abaf3db57618744" kindref="member">test_load_file_memory</ref>(<ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref>,<sp/><ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;after<sp/>function:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">flush();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;br&gt;before<sp/>function:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><ref refid="memory__test_8php_1a03fc6318721e88e5a65a22339934d91c" kindref="member">test_multi_file_get_html</ref>(<ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref>,<sp/><ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;after<sp/>function:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">flush();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;br&gt;before<sp/>function:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><ref refid="memory__test_8php_1a03fc6318721e88e5a65a22339934d91c" kindref="member">test_multi_file_get_html</ref>(<ref refid="memory__test_8php_1a0722441477f957078ee2437054556cbc" kindref="member">$filename</ref>,<sp/><ref refid="memory__test_8php_1a0ba66905edc5f735e4b423e74e3ba1e6" kindref="member">$init_size</ref>);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">echo<sp/></highlight><highlight class="stringliteral">&apos;after<sp/>function:<sp/>&apos;</highlight><highlight class="normal">.number_format(memory_get_usage()/1024,<sp/>0,<sp/></highlight><highlight class="charliteral">&apos;.&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;,&apos;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">flush();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/testcase/memory_test.php"/>
+  </compounddef>
+</doxygen>

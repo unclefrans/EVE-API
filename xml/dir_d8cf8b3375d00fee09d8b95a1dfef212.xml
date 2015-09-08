@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_d8cf8b3375d00fee09d8b95a1dfef212" kind="dir">
+    <compoundname>parser/example/scraping</compoundname>
+    <innerfile refid="example__scraping__digg_8php">example_scraping_digg.php</innerfile>
+    <innerfile refid="example__scraping__imdb_8php">example_scraping_imdb.php</innerfile>
+    <innerfile refid="example__scraping__slashdot_8php">example_scraping_slashdot.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Wamp/www/EVE API/parser/example/scraping/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="example__scraping__digg_8php" kind="file">
+    <compoundname>example_scraping_digg.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="example__scraping__digg_8php_1affd9e3eb0aad0a7ca42912cd925f148c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$ret</definition>
+        <argsstring></argsstring>
+        <name>$ret</name>
+        <initializer>= <ref refid="example__scraping__digg_8php_1a0a0d20e034513d04d388f09cbbdb6e78" kindref="member">scraping_digg</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_digg.php" line="34" column="1" bodyfile="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_digg.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="example__scraping__digg_8php_1a0a0d20e034513d04d388f09cbbdb6e78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>scraping_digg</definition>
+        <argsstring>()</argsstring>
+        <name>scraping_digg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_digg.php" line="4" column="1" bodyfile="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_digg.php" bodystart="4" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">include_once(</highlight><highlight class="stringliteral">&apos;../../simple_html_dom.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="example__scraping__digg_8php_1a0a0d20e034513d04d388f09cbbdb6e78" kindref="member">scraping_digg</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>HTML<sp/>DOM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref><sp/>=<sp/><ref refid="simple__html__dom_8php_1af2164941db8b68168c1105687e179d27" kindref="member">file_get_html</ref>(</highlight><highlight class="stringliteral">&apos;http://digg.com/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>news<sp/>block</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;find(</highlight><highlight class="stringliteral">&apos;div.news-summary&apos;</highlight><highlight class="normal">)<sp/>as<sp/>$article)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>title</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item[</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">]<sp/>=<sp/>trim($article-&gt;find(</highlight><highlight class="stringliteral">&apos;h3&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;plaintext);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>details</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item[</highlight><highlight class="stringliteral">&apos;details&apos;</highlight><highlight class="normal">]<sp/>=<sp/>trim($article-&gt;find(</highlight><highlight class="charliteral">&apos;p&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;plaintext);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>intro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$item[</highlight><highlight class="stringliteral">&apos;diggs&apos;</highlight><highlight class="normal">]<sp/>=<sp/>trim($article-&gt;find(</highlight><highlight class="stringliteral">&apos;li<sp/>a<sp/>strong&apos;</highlight><highlight class="normal">,<sp/>0)-&gt;plaintext);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="example__scraping__digg_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref>[]<sp/>=<sp/>$item;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>clean<sp/>up<sp/>memory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>-&gt;clear();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>unset(<ref refid="parser_2app_2index_8php_1a6f96e7fc92441776c9d1cd3386663b40" kindref="member">$html</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="example__scraping__digg_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>test<sp/>it!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&quot;http://digg.com&quot;<sp/>will<sp/>check<sp/>user_agent<sp/>header...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">ini_set(</highlight><highlight class="stringliteral">&apos;user_agent&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;My-Application/2.5&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="example__scraping__digg_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref><sp/>=<sp/><ref refid="example__scraping__digg_8php_1a0a0d20e034513d04d388f09cbbdb6e78" kindref="member">scraping_digg</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(<ref refid="example__scraping__digg_8php_1affd9e3eb0aad0a7ca42912cd925f148c" kindref="member">$ret</ref><sp/>as<sp/>$v)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/>$v[</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;&lt;br&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;ul&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;li&gt;&apos;</highlight><highlight class="normal">.$v[</highlight><highlight class="stringliteral">&apos;details&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;&lt;/li&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;li&gt;Diggs:<sp/>&apos;</highlight><highlight class="normal">.$v[</highlight><highlight class="stringliteral">&apos;diggs&apos;</highlight><highlight class="normal">].</highlight><highlight class="stringliteral">&apos;&lt;/li&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&apos;&lt;/ul&gt;&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Wamp/www/EVE API/parser/example/scraping/example_scraping_digg.php"/>
+  </compounddef>
+</doxygen>
